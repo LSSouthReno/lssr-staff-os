@@ -1281,7 +1281,7 @@
 // Paste into Extensions → Apps Script in your Google Sheet
 // Set GITHUB_TOKEN and GITHUB_REPO in Script Properties (not in code)
 
-const GITHUB_REPO = 'YourUsername/lssr-staff-os'; // UPDATE THIS
+const GITHUB_REPO = 'LSSouthReno/lssr-staff-os';
 const GITHUB_FILE = 'data/eos-data.json';
 
 function pushToGitHub() {
@@ -1406,10 +1406,9 @@ function onOpen() {
 
 <script>
 // ─────────────────────────────────────────────────────────────────────────────
-// DATA_URL: Set this to your GitHub raw JSON URL once the repo is set up.
-// Leave empty to use the embedded default data below.
+// DATA_URL: GitHub raw JSON — updated by Google Sheets Apps Script pipeline.
 // ─────────────────────────────────────────────────────────────────────────────
-const DATA_URL = '';
+const DATA_URL = 'https://raw.githubusercontent.com/LSSouthReno/lssr-staff-os/main/data/eos-data.json';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // DEFAULT DATA — edit this directly, or override via the Google Sheet pipeline
