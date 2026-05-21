@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-20",
+    "lastUpdated": "2026-05-21",
     "quarter": "Q2 2026"
   },
   "scorecard": [
@@ -8,17 +8,17 @@
       "metric": "AWA ? Adults (Weekend Attendance)",
       "owner": "Ryan Griffin",
       "goal": "900+",
-      "current": "775",
-      "status": "red",
-      "notes": "Current: 800 (Jan 2026)"
+      "current": "",
+      "status": "grey",
+      "notes": "Current: 825"
     },
     {
       "metric": "AWA ? Stepping Stones (Kids)",
       "owner": "Geoffrey Caliger",
       "goal": "200+",
-      "current": "119",
-      "status": "red",
-      "notes": "Current: 130 (Jan 2026)"
+      "current": "",
+      "status": "grey",
+      "notes": "Current: 120"
     },
     {
       "metric": "First-Time Guests",
@@ -48,15 +48,15 @@
       "metric": "Community Groups Active",
       "owner": "Adam Carp",
       "goal": "50+",
-      "current": "450",
-      "status": "green",
+      "current": "",
+      "status": "grey",
       "notes": "Current: 33 groups (Jan 2026)"
     },
     {
       "metric": "Community Group Members (Active)",
       "owner": "Adam Carp",
       "goal": "500+",
-      "current": "0",
+      "current": "",
       "status": "grey",
       "notes": "Current: 387 members (Jan 2026)"
     },
@@ -247,7 +247,7 @@
       "status": "open"
     },
     {
-      "issue": "Building search has no clear week-to-week owner or decision framework ? risk of drift",
+      "issue": "Building Search",
       "addedBy": "Brad",
       "priority": "high",
       "status": "open"
