@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastUpdated": "2026-05-21",
-    "quarter": "Q2 2026"
+    "quarter": "Q2 2026",
+    "lastUpdated": "2026-05-30"
   },
   "scorecard": [
     {
-      "metric": "AWA ? Adults (Weekend Attendance)",
+      "metric": "AWA — Adults (Weekend Attendance)",
       "owner": "Ryan Griffin",
       "goal": "900+",
       "current": "",
@@ -13,7 +13,7 @@
       "notes": "Current: 825"
     },
     {
-      "metric": "AWA ? Stepping Stones (Kids)",
+      "metric": "AWA — Stepping Stones (Kids)",
       "owner": "Geoffrey Caliger",
       "goal": "200+",
       "current": "",
@@ -31,7 +31,7 @@
     {
       "metric": "Guest Follow-Up Rate (within 48 hrs)",
       "owner": "Adam Carp",
-      "goal": "1",
+      "goal": "100%",
       "current": "",
       "status": "grey",
       "notes": "Critical front-door metric"
@@ -90,12 +90,12 @@
       "goal": "95%+",
       "current": "",
       "status": "grey",
-      "notes": "Target: 32+ trained volunteers"
+      "notes": "Target: 32+ trained volunteers in rotation"
     },
     {
       "metric": "All-In Giving YTD vs. $3,675,000 Goal",
       "owner": "Rachel Primus",
-      "goal": "? Budget pace",
+      "goal": "≥ Pace",
       "current": "",
       "status": "grey",
       "notes": "All-In 2-year campaign goal"
@@ -103,7 +103,7 @@
     {
       "metric": "Weekly Giving vs. Budget",
       "owner": "Rachel Primus",
-      "goal": "? Budget pace",
+      "goal": "≥ Budget pace",
       "current": "",
       "status": "grey",
       "notes": ""
@@ -111,7 +111,7 @@
     {
       "metric": "Sunday Production Issues",
       "owner": "Gordon Fava",
-      "goal": "",
+      "goal": "0",
       "current": "",
       "status": "grey",
       "notes": "Any tech/production fail"
@@ -119,7 +119,7 @@
     {
       "metric": "Weekly Email Open Rate",
       "owner": "John Conelea",
-      "goal": "? 30%",
+      "goal": "≥ 30%",
       "current": "",
       "status": "grey",
       "notes": ""
@@ -183,7 +183,7 @@
       "notes": ""
     },
     {
-      "title": "Discipleship Pathway: Guest ? Member ? Leader ? Missionary fully documented with clear criteria",
+      "title": "Discipleship Pathway: Guest → Member → Leader → Missionary fully documented with clear criteria",
       "owner": "Adam Carp",
       "quarter": "Q2 2026",
       "status": "tbd",
@@ -241,13 +241,13 @@
   ],
   "issues": [
     {
-      "issue": "Two Student Ministry Director titles ? role clarity needed between Isaac and Katie",
+      "issue": "Two Student Ministry Director titles — role clarity needed between Isaac and Katie",
       "addedBy": "Brad",
       "priority": "high",
       "status": "open"
     },
     {
-      "issue": "Building Search",
+      "issue": "Building Search has no clear week-to-week owner or defined decision framework — risk of drift",
       "addedBy": "Brad",
       "priority": "high",
       "status": "open"
@@ -259,25 +259,25 @@
       "status": "open"
     },
     {
-      "issue": "Creative asset lead times compressed ? info from pastoral team often arrives too late",
+      "issue": "Creative asset lead times compressed — info from pastoral team often arrives too late",
       "addedBy": "John Conelea",
       "priority": "med",
       "status": "open"
     },
     {
-      "issue": "CG attendance rate at 50% vs 75%+ goal ? engagement strategy needed",
+      "issue": "CG attendance rate at 50% vs 75%+ goal — engagement strategy needed",
       "addedBy": "Adam Carp",
       "priority": "med",
       "status": "open"
     },
     {
-      "issue": "No dedicated Missions Team Leader identified ? missions momentum at risk",
+      "issue": "No dedicated Missions Team Leader identified — missions momentum at risk",
       "addedBy": "Ryan",
       "priority": "med",
       "status": "open"
     },
     {
-      "issue": "Team Wonder/Galvanizing gap ? build structured What-are-we-missing time into L10",
+      "issue": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into L10",
       "addedBy": "Brad",
       "priority": "low",
       "status": "open"
