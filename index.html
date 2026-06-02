@@ -581,1130 +581,60 @@
 <header>
   <div class="header-top">
     <div>
-      <div class="header-tag">Living Stones South Reno — Staff Operating System</div>
-      <h1>Running on <span>Traction</span></h1>
-      <p>EOS adapted for Living Stones South Reno. Humble · Hungry · Happy · Honest. The horse is made ready for the day of battle, but the victory belongs to the LORD. — Prov 21:31</p>
+      <div class="header-tag" id="hdr-org-tag">Living Stones South Reno — Staff Operating System</div>
+      <h1 id="hdr-title">Running on <span id="hdr-highlight">Traction</span></h1>
+      <p id="hdr-subtitle">EOS adapted for Living Stones South Reno. Humble · Hungry · Happy · Honest.</p>
+      <p id="hdr-scripture" style="margin-top:6px;font-size:12px;font-style:italic;color:rgba(245,240,232,0.45);">The horse is made ready for the day of battle, but the victory belongs to the LORD. — Prov 21:31</p>
     </div>
     <div class="header-meta">
       <div class="quarter-badge" id="quarter-display">Q2 2026</div>
-      <span class="last-updated" id="last-updated-display">Last updated: 2026-05-20</span>
+      <span class="last-updated" id="last-updated-display">Last updated: —</span>
       <div class="live-indicator">
         <span class="live-dot" id="live-dot"></span>
-        <span id="data-source-label">local data</span>
+        <span id="data-source-label">loading...</span>
       </div>
     </div>
   </div>
 </header>
 
-<nav class="nav-tabs">
-  <div class="nav-tab active" onclick="showSection('vto',this)">V/TO</div>
-  <div class="nav-tab" onclick="showSection('vot',this)">VOT</div>
-  <div class="nav-tab" onclick="showSection('acc-chart',this)">Acc. Chart</div>
-  <div class="nav-tab" onclick="showSection('scorecard',this)">Scorecard</div>
-  <div class="nav-tab" onclick="showSection('rocks',this)">Rocks</div>
-  <div class="nav-tab" onclick="showSection('team',this)">Team / WG</div>
-  <div class="nav-tab" onclick="showSection('meetings',this)">Meeting Pulse</div>
-  <div class="nav-tab" onclick="showSection('ids',this)">IDS / Issues</div>
+<nav class="nav-tabs" id="nav-tabs">
+  <!-- populated by JS from data.tabs -->
 </nav>
 
 <main>
-
-<!-- ======================== V/TO ======================== -->
-<div class="section active" id="vto">
-  <div class="section-header">
-    <div class="eyebrow">Tool 01</div>
-    <h2>Vision / Traction Organizer</h2>
-    <p>The single-page document that aligns every member of the LS South Reno staff around where we're going and how we'll get there. Review this together every quarter.</p>
-  </div>
-
-  <div class="methods-grid">
-    <div class="method-pill"><span class="method-num">01</span><div class="method-name">Membership</div></div>
-    <div class="method-pill"><span class="method-num">02</span><div class="method-name">Community Groups</div></div>
-    <div class="method-pill"><span class="method-num">03</span><div class="method-name">Leadership Development</div></div>
-    <div class="method-pill"><span class="method-num">04</span><div class="method-name">Local &amp; Global Missions</div></div>
-    <div class="method-pill"><span class="method-num">05</span><div class="method-name">Sunday Gatherings</div></div>
-  </div>
-
-  <div class="grid-2">
-    <div class="card">
-      <div class="card-title">Core Values <span class="badge">Staff Culture</span></div>
-      <div class="card-subtitle">The behaviors we hire, fire, review, and reward by. These define who we are.</div>
-      <ul class="metric-list">
-        <li><strong>Humble</strong> — Takes Jesus seriously and not themselves</li>
-        <li><strong>Hungry</strong> — Internally motivated to excellence, drive, and execution</li>
-        <li><strong>Happy</strong> — Fueled by the joy of Jesus, ready to bring that joy to others</li>
-        <li><strong>Honest</strong> — Talks straight and leads with authenticity and transparency</li>
-      </ul>
-      <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);">
-        <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:8px;">Church Culture Guide</div>
-        <ul class="metric-list">
-          <li><strong>Authentic Community</strong> — We do life together, not just attend church</li>
-          <li><strong>Pursuit of God</strong> — We are a people hungry for Jesus, not just religion</li>
-          <li><strong>Faith that Cares</strong> — We love our city and world with action, not just words</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">Core Focus <span class="badge">Purpose</span></div>
-      <div class="card-subtitle">Our why and our niche — what LSSR uniquely does in South Reno.</div>
-      <div style="margin-bottom:14px;">
-        <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">LS Family Vision</div>
-        <div style="font-size:16px;font-style:italic;color:var(--ink);font-family:'Playfair Display',serif;">Helping Everyone Find Everything in Jesus</div>
-      </div>
-      <div style="margin-bottom:14px;">
-        <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">LSSR Specific Vision</div>
-        <div style="font-size:15px;font-style:italic;color:var(--ink);font-family:'Playfair Display',serif;">Establish a Permanent Hub of Gospel Purpose in South Reno</div>
-      </div>
-      <div style="margin-bottom:14px;">
-        <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">Our Niche</div>
-        <div style="font-size:14px;color:var(--ink);">A beacon of the gospel and a hub of Jesus' mission — raising, training, teaching, and sending disciples who make disciples in South Reno and to the ends of the earth.</div>
-      </div>
-      <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);">
-        <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">Proven Process</div>
-        <div style="font-size:13px;color:var(--ink);font-weight:600;">Guest → Member → Leader → Missionary</div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">10-Year Target <span class="badge">BHAG</span></div>
-      <div class="card-subtitle">Big. Hairy. Audacious. The goal that will require God to pull off.</div>
-      <div style="background:var(--section-bg);border-radius:6px;padding:14px 16px;margin-bottom:14px;text-align:center;">
-        <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:8px;">The Formula</div>
-        <div style="font-size:15px;font-family:'Playfair Display',serif;color:var(--ink);">Baptize <strong>10% of avg attendance</strong> every year for 10 years</div>
-        <div style="font-size:20px;color:var(--gold);margin:6px 0;">= South Reno Changed Forever</div>
-        <div style="font-size:12px;color:var(--muted);">Studies show a community shifts when ~15% are reached. At 50k residents and current trajectory, consistent 10% annual baptism rate gets us there.</div>
-      </div>
-      <ul class="metric-list">
-        <li>A permanent owned facility — hub of gospel mission in South Reno</li>
-        <li>1,500+ weekly attendance; 75%+ in a group, giving, and serving</li>
-        <li>Church planting actively multiplying — beginning with a new church planter</li>
-        <li>Living Stones Family Network thriving across the Mountain West</li>
-        <li>Praxis Seminary raising up the next generation of gospel leaders</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <div class="card-title">Marketing Strategy <span class="badge">Who We Reach</span></div>
-      <div class="card-subtitle">Who is the person LSSR is uniquely positioned to reach?</div>
-      <div style="margin-bottom:14px;">
-        <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">Target Person</div>
-        <div style="font-size:14px;">The spiritually curious, unchurched, or de-churched adult in South Reno — who may be open to Jesus but skeptical of organized religion or has been hurt by the church.</div>
-      </div>
-      <div>
-        <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">Proven Process</div>
-        <ul class="metric-list" style="margin-top:4px;">
-          <li>Experience a Sunday Gathering</li>
-          <li>Connect in a Community Group</li>
-          <li>Complete Membership &amp; Starting Point</li>
-          <li>Discover &amp; Deploy in a Serving Team or Leadership Role</li>
-          <li>Multiply — own a mission (local, global, or plant a group)</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-title">3-Year Picture <span class="badge">2028</span></div>
-      <div class="card-subtitle">What does LSSR look like in 3 years — vivid and measurable?</div>
-      <ul class="metric-list">
-        <li>In a permanent owned facility — construction complete or breaking ground</li>
-        <li>1,000+ adults and 200+ kids in weekly Sunday Gatherings</li>
-        <li>600+ active church members, 75%+ active in serving/giving/group</li>
-        <li>70+ Community Groups, 700+ members, 75%+ attendance rate</li>
-        <li>400+ volunteers serving in active roles</li>
-        <li>New church planter identified, funded, and in training</li>
-        <li>Praxis Seminary and LS Family Network fully established</li>
-        <li>Stepping Stones and Student Ministry each with 200+ participants</li>
-        <li>Annual baptisms consistently at 10%+ of avg attendance</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <div class="card-title">1-Year Plan <span class="badge">2026</span></div>
-      <div class="card-subtitle">The most important things to accomplish this year — specific and owned.</div>
-      <ul class="metric-list" id="one-year-plan">
-        <li><strong>Sunday Gatherings:</strong> 900 adults + 200 kids in new building (1,100 total)</li>
-        <li><strong>Membership:</strong> 462 members, 75% active in serving/giving/group (from 362, 60%)</li>
-        <li><strong>Community Groups:</strong> 50 groups, 500 members, 75% attendance (from 33/387/50%)</li>
-        <li><strong>Serving:</strong> 325 people serving, 75% of members (from 254, 60%)</li>
-        <li><strong>Generosity:</strong> Hit All-In goal of $3,675,000; 50 new commitments in April</li>
-        <li><strong>Leadership Dev:</strong> 25 Leader Launch grads, 2+ new EITs, 10 new deacons</li>
-        <li><strong>Church Planting:</strong> Begin seeking and vetting a new church planter</li>
-        <li><strong>EOS:</strong> L10s running in all departments, scorecard reviewed weekly</li>
-        <li><strong>Building:</strong> 3 viable sites identified, financial model presented to Elders</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!-- ======================== VOT ======================== -->
-<div class="section" id="vot">
-  <div class="section-header">
-    <div class="eyebrow">Tool 02</div>
-    <h2>Values, Observable, Teachable (VOT)</h2>
-    <p>For each of the four core values — Humble, Hungry, Happy, Honest — here are the observable behaviors we can hire by, coach to, and reward. Use this in every 1-on-1 and quarterly review.</p>
-  </div>
-
-  <div class="highlight-box">
-    <h3>How to Use the VOT</h3>
-    <p>In every quarterly 1-on-1 and annual review, score each staff member on all four values using a 1–5 scale. A "Right Person" lives these values naturally. A "Right Seat" question is separate — someone can be a great fit to our culture but wrong for the role. Both matter.</p>
-  </div>
-
-  <div class="grid-2" style="margin-bottom:20px;">
-    <div class="value-card" data-letter="H">
-      <h3>Humble</h3>
-      <p>Humility is the foundation. It's not thinking less of yourself — it's thinking of yourself less. We take Jesus seriously and not ourselves.</p>
-      <ul class="value-behaviors">
-        <li>Gives credit freely; takes blame personally</li>
-        <li>Asks for help without ego; actively seeks feedback</li>
-        <li>Serves outside their job description without complaint</li>
-        <li>Deflects praise toward the team and toward God</li>
-        <li>Listens more than they talk; curious, not defensive</li>
-        <li>Doesn't hoard information, decisions, or control</li>
-      </ul>
-    </div>
-
-    <div class="value-card" data-letter="H" style="background:#3a2a10;">
-      <h3>Hungry</h3>
-      <p>Hungry people are self-motivated. They don't wait to be told. They pursue excellence in ministry because they love Jesus and love the mission.</p>
-      <ul class="value-behaviors">
-        <li>Pursues personal spiritual formation proactively</li>
-        <li>Reads, learns, and brings new ideas without being asked</li>
-        <li>Sets goals beyond what's required; moves the ball</li>
-        <li>Champions improvement and resists "we've always done it this way"</li>
-        <li>Takes on extra responsibility when the mission requires it</li>
-        <li>Execution-oriented — follows through without reminders</li>
-      </ul>
-    </div>
-
-    <div class="value-card" data-letter="H" style="background:#2a3a28;">
-      <h3>Happy</h3>
-      <p>Happy doesn't mean always smiling. It means we know who we are in Christ, why we're here, and we find genuine joy in the work — even the hard parts.</p>
-      <ul class="value-behaviors">
-        <li>Brings energy to the team, not drama</li>
-        <li>Practices personal disciplines that sustain health (Sabbath, prayer, margin)</li>
-        <li>Celebrates wins — big and small — genuinely and publicly</li>
-        <li>Treats volunteers and guests with consistent warmth</li>
-        <li>Doesn't complain without offering a solution</li>
-        <li>Can receive hard feedback or news without falling apart</li>
-      </ul>
-    </div>
-
-    <div class="value-card" data-letter="H" style="background:#2a1f2a;">
-      <h3>Honest</h3>
-      <p>We say hard things with grace. No triangulating, no gossip, no sweeping things under the rug. Authenticity is not optional in this culture.</p>
-      <ul class="value-behaviors">
-        <li>Says what they mean in the room, not after the meeting</li>
-        <li>Admits mistakes quickly and owns outcomes fully</li>
-        <li>Brings problems forward — not sideways or backwards</li>
-        <li>Addresses conflict directly with the person involved</li>
-        <li>Keeps confidences; never leaks private matters</li>
-        <li>Doesn't shade truth to protect comfort or avoid awkwardness</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-title">VOT Scoring Guide <span class="badge">Quarterly Review</span></div>
-    <div class="card-subtitle">Use this in quarterly 1-on-1s and annual reviews with each direct report</div>
-    <table class="scorecard-table">
-      <thead><tr><th>Score</th><th>What It Means</th><th>Next Step</th></tr></thead>
-      <tbody>
-        <tr><td><strong>5</strong></td><td>Consistently models this value; others notice and follow their lead</td><td>Celebrate and deploy as a culture carrier</td></tr>
-        <tr><td><strong>4</strong></td><td>Lives this value well with only occasional gaps</td><td>Affirm and keep coaching toward mastery</td></tr>
-        <tr><td><strong>3</strong></td><td>Understands the value but inconsistently applies it</td><td>Create a coaching plan with specific behaviors to change</td></tr>
-        <tr><td><strong>2</strong></td><td>Struggles with this value; patterns of conflicting behavior visible</td><td>Formal growth plan with clear expectations and accountability</td></tr>
-        <tr><td><strong>1</strong></td><td>This value is not present; behavior pattern is contrary to culture</td><td>Serious conversation; may be a "wrong person" situation</td></tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-<!-- ======================== ACCOUNTABILITY CHART ======================== -->
-<div class="section" id="acc-chart">
-  <div class="section-header">
-    <div class="eyebrow">Tool 03</div>
-    <h2>Accountability Chart</h2>
-    <p>Not an org chart — a clarity chart. Every seat has one owner, every owner has clear roles and measurables. Right Person · Right Seat.</p>
-  </div>
-
-  <div class="vi-split">
-    <div class="vi-box vis">
-      <div class="vi-label">Visionary (V)</div>
-      <h3>Ryan Griffin — Lead Pastor</h3>
-      <div style="font-family:'DM Mono',monospace;font-size:9px;color:rgba(201,150,58,0.6);margin-bottom:12px;letter-spacing:1px;">WG: Galvanizing + Discernment · The Intuitive Activator</div>
-      <ul class="vi-list">
-        <li>Casts and protects the vision of LSSR</li>
-        <li>Primary preacher and teacher; shapes theological direction</li>
-        <li>External relationships: elders, community, partnerships</li>
-        <li>Culture and values keeper; spiritual formation champion</li>
-        <li>Missions vision and mobilization ownership</li>
-        <li>Sabbatical preaching plan — equipping others to preach</li>
-        <li>Galvanizes congregation around the 5 Ministry Methods</li>
-      </ul>
-    </div>
-    <div class="vi-box int">
-      <div class="vi-label">Integrator (I)</div>
-      <h3>Brad Borowski — Executive Pastor</h3>
-      <div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--rust);margin-bottom:12px;letter-spacing:1px;">WG: Tenacity + Invention · The Methodical Architect</div>
-      <ul class="vi-list" style="--gold:#a84c2f;">
-        <li>Executes and filters vision into operations and systems</li>
-        <li>Owns the Level 10 meeting pulse and EOS implementation</li>
-        <li>Manages and develops all department directors</li>
-        <li>Budget ownership, financial health, building search</li>
-        <li>Holds team accountable to rocks, scorecard, and values</li>
-        <li>HR, onboarding, staff development, and culture health</li>
-        <li>Removes obstacles; solves what the visionary can't/shouldn't</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="org-chart">
-    <div class="org-line" style="height:8px;"></div>
-    <div class="org-row" style="margin-bottom:0; gap: 10px; flex-wrap: wrap;">
-      <div class="org-node">
-        <div class="org-role">Discipleship Pastor</div>
-        <div class="org-name">Adam Carp</div>
-        <div class="org-wg">WG: Invention · Wonder</div>
-      </div>
-      <div class="org-node">
-        <div class="org-role">Worship Director</div>
-        <div class="org-name">Gordon Fava</div>
-        <div class="org-wg">WG: Wonder · Tenacity</div>
-      </div>
-      <div class="org-node">
-        <div class="org-role">Creative Director</div>
-        <div class="org-name">John Conelea</div>
-        <div class="org-wg">WG: Tenacity · Invention</div>
-      </div>
-      <div class="org-node">
-        <div class="org-role">Administrative Director</div>
-        <div class="org-name">Rachel Primus</div>
-        <div class="org-wg">WG: Enablement · Tenacity</div>
-      </div>
-      <div class="org-node">
-        <div class="org-role">Student Ministry Director</div>
-        <div class="org-name">Isaac Griffin</div>
-        <div class="org-wg">WG: —</div>
-      </div>
-      <div class="org-node">
-        <div class="org-role">Stepping Stones Curriculum Dir.</div>
-        <div class="org-name">Deana Griffin</div>
-        <div class="org-wg">WG: —</div>
-      </div>
-      <div class="org-node">
-        <div class="org-role">Student Ministry Director</div>
-        <div class="org-name">Katie Thompson</div>
-        <div class="org-wg">WG: Discernment · Galvanizing</div>
-      </div>
-      <div class="org-node">
-        <div class="org-role">Stepping Stones Staffing Dir.</div>
-        <div class="org-name">Geoffrey Caliger</div>
-        <div class="org-wg">WG: —</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="grid-3">
-    <div class="card">
-      <div class="card-title">Adam Carp</div>
-      <div class="card-subtitle">Discipleship Pastor — Wins when people move from rows to roots to mission</div>
-      <ul class="metric-list">
-        <li>Community Group strategy, health, and multiplication</li>
-        <li>CG Leader coaching methodology and quarterly bootcamps</li>
-        <li>Discipleship pathway design (Guest → Member → Leader → Missionary)</li>
-        <li>Leader Launch execution (monthly)</li>
-        <li>Membership and Starting Point class oversight</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">Gordon Fava</div>
-      <div class="card-subtitle">Worship Director — Wins when Sunday is an encounter, not just a concert</div>
-      <ul class="metric-list">
-        <li>Weekly liturgy planning under Lead Pastor oversight</li>
-        <li>Worship team recruiting, leading, and developing</li>
-        <li>Tech team: A/V, lighting, streaming — startup to shutdown</li>
-        <li>Music catalog process and song selection</li>
-        <li>Pre-gathering briefings with Worship + Tech + Serving teams</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">John Conelea</div>
-      <div class="card-subtitle">Creative Director — Wins when every touchpoint reflects the mission clearly and beautifully</div>
-      <ul class="metric-list">
-        <li>Sermon series graphics, bumper videos, event graphics</li>
-        <li>Church app, website, and social media content</li>
-        <li>Weekly email, monthly First-to-Know video, sermon clips</li>
-        <li>Environmental design: lobby, stage, signage, kids spaces</li>
-        <li>Testimony and promo video production</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">Rachel Primus</div>
-      <div class="card-subtitle">Administrative Director — Wins when the machine runs clean and the team never hits a wall</div>
-      <ul class="metric-list">
-        <li>Financial systems, weekly giving report, budget variance</li>
-        <li>HR, onboarding, and staff processes</li>
-        <li>Planning Center data accuracy and database health</li>
-        <li>Vendor management and facilities coordination</li>
-        <li>Member care data sheet monthly; shepherding list support</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">Deana Griffin</div>
-      <div class="card-subtitle">Stepping Stones Curriculum Dir. — Wins when every kid encounters Jesus through great teaching</div>
-      <ul class="metric-list">
-        <li>Create curriculum that teaches children Bible truths pointing to Jesus</li>
-        <li>Resource classroom teachers with materials and activity instructions</li>
-        <li>Set up curriculum documents and videos ready for each Sunday</li>
-        <li>Ensure snacks stocked, rooms clean and classroom-ready</li>
-        <li>Evaluate and implement approved improvements to curriculum</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">Isaac Griffin / Katie Thompson</div>
-      <div class="card-subtitle">Student Ministry — Wins when LS Students grows 25%+ YOY and students feel known</div>
-      <ul class="metric-list">
-        <li>Sunday LS Students services and environments</li>
-        <li>Student team scheduling, training, and leadership development</li>
-        <li>Parent communication and student planning calendars</li>
-        <li>Summer camp planning, registration, and logistics</li>
-        <li>Student events, parties, and fundraisers</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title">Geoffrey Caliger</div>
-      <div class="card-subtitle">Stepping Stones Staffing Dir. — Wins when every Sunday slot is covered with trained, joyful volunteers</div>
-      <ul class="metric-list">
-        <li>Volunteer recruiting and scheduling (target: 8–12 weeks out)</li>
-        <li>Teacher training: onboarding and ongoing</li>
-        <li>Team Lead coordination and monthly meetings</li>
-        <li>Fill rate for declines and last-minute cancellations</li>
-        <li>Evaluate and implement improvements to volunteer systems</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-<!-- ======================== SCORECARD ======================== -->
-<div class="section" id="scorecard">
-  <div class="section-header">
-    <div class="eyebrow">Tool 04</div>
-    <h2>Leadership Team Scorecard</h2>
-    <p>A weekly pulse on the health of LSSR. Each number has one owner and a weekly goal. Review every Level 10 Meeting. Red for 2+ weeks = Issue to IDS.</p>
-  </div>
-
-  <div class="highlight-box">
-    <h3>The Rule of the Scorecard</h3>
-    <p>You're not managing people — you're managing numbers. When a number is red, it becomes an Issue to IDS. "It depends" is not a goal. "The team" is not an owner. Update current values in the Google Sheet; this page pulls live data automatically.</p>
-  </div>
-
-  <div class="card">
-    <div style="float:right;margin-bottom:8px;">
-      <span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:1px;">Baseline: 550 adults · 100 kids · 245 members · 254 CG members (2024)</span>
-    </div>
-    <table class="scorecard-table" id="scorecard-table">
-      <thead>
-        <tr>
-          <th></th>
-          <th>Measurable</th>
-          <th>Owner</th>
-          <th>Goal</th>
-          <th>Current</th>
-          <th>Why It Matters</th>
-        </tr>
-      </thead>
-      <tbody id="scorecard-tbody">
-        <!-- populated by JS -->
-      </tbody>
-    </table>
-  </div>
-</div>
-
-<!-- ======================== ROCKS ======================== -->
-<div class="section" id="rocks">
-  <div class="section-header">
-    <div class="eyebrow">Tool 05</div>
-    <h2>Quarterly Rocks</h2>
-    <p>The 3–7 most important things to accomplish this quarter. If everything is a priority, nothing is. Every rock is specific, measurable, and done in 90 days.</p>
-  </div>
-
-  <div class="highlight-box">
-    <h3>The Rock Formula</h3>
-    <p>"By end of Q2 2026, [this specific thing] will be done and we'll know it because [here's the measurable proof]." Rocks are reported On Track / Off Track every L10. Red rocks go directly to Issues.</p>
-  </div>
-
-  <div class="grid-2">
-    <div>
-      <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px;">Company Rocks — Q2 2026</div>
-      <div id="company-rocks"><!-- populated by JS --></div>
-    </div>
-    <div>
-      <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px;">Individual Rocks — Q2 2026</div>
-      <div id="individual-rocks"><!-- populated by JS --></div>
-    </div>
-  </div>
-
-  <div class="card" style="margin-top:24px;">
-    <div class="card-title">Rock Review Cadence <span class="badge">Weekly L10</span></div>
-    <div class="card-subtitle">Every person reports every rock every week — On Track or Off Track only</div>
-    <ul class="metric-list">
-      <li><strong>On Track (Green)</strong> — No discussion needed. Move on immediately.</li>
-      <li><strong>Off Track (Red)</strong> — Brief update only. Moves to Issues List for IDS if needed.</li>
-      <li><strong>Completed</strong> — Celebrate briefly. Confirm done with clear evidence.</li>
-      <li>Rocks are never moved or changed mid-quarter except genuine emergency (extremely rare).</li>
-      <li>End of quarter: hold a Quarterly Business Owner's meeting (QBOP) to set next rocks.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- ======================== TEAM / WORKING GENIUS ======================== -->
-<div class="section" id="team">
-  <div class="section-header">
-    <div class="eyebrow">Tool 06 — Working Genius</div>
-    <h2>Team Map &amp; Working Genius</h2>
-    <p>Understanding how each person on the LSSR staff is wired helps us assign the right work, avoid burning people out, and fill gaps intentionally. Team map completed 2025.</p>
-  </div>
-
-  <div class="wg-analysis">
-    <h3>Team Analysis: LS South Reno Staff</h3>
-    <div class="wg-analysis-grid">
-      <div class="wg-strength">
-        <div class="wg-analysis-label">Team Strengths</div>
-        <ul>
-          <li><strong>Tenacity</strong> — 5 geniuses. This team executes. Gets things done, follows through.</li>
-          <li><strong>Discernment</strong> — 3 geniuses. Strong gut instincts for evaluating ideas and people.</li>
-          <li><strong>Enablement</strong> — 3 geniuses. Several people love supporting others and saying yes.</li>
-        </ul>
-      </div>
-      <div class="wg-gap">
-        <div class="wg-analysis-label">Team Gaps to Watch</div>
-        <ul>
-          <li><strong>Wonder</strong> — Only 2 geniuses (Adam, Gordon). Team may rush to execution before asking "what if?" or "why not?"</li>
-          <li><strong>Galvanizing</strong> — Only 2 geniuses (Katie, Ryan). Church growth requires inspiring people to action — lean hard on these two.</li>
-          <li>4 people have Wonder as a frustration — build in structured "What are we missing?" time.</li>
-        </ul>
-      </div>
-      <div class="wg-note">
-        <div class="wg-analysis-label">Application Notes</div>
-        <ul>
-          <li>Before any new initiative: loop in Adam or Gordon to ask the Wonder questions.</li>
-          <li>For rallying volunteers and congregation: Ryan and Katie should front these moments.</li>
-          <li>Almost no one has Tenacity as a frustration — deploy the team on execution confidently.</li>
-          <li>Many have Enablement as a frustration — don't overload the team with support/admin tasks.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="wg-team-grid" id="wg-team-grid">
-    <!-- populated by JS -->
-  </div>
-
-  <div class="card">
-    <div class="card-title">Working Genius Types Reference <span class="badge">W·I·D·G·E·T</span></div>
-    <div class="card-subtitle">The six types form an interdependent model — each feeds the next in the workflow of any project</div>
-    <table class="scorecard-table">
-      <thead><tr><th>Type</th><th>Letter</th><th>What It Does</th><th>Church Application</th></tr></thead>
-      <tbody>
-        <tr><td><strong>Wonder</strong></td><td><span class="wg-badge genius">W</span></td><td>Identifies the need for improvement or change; asks big questions</td><td>Asking: "Are we reaching the right people? Are our methods still working?"</td></tr>
-        <tr><td><strong>Invention</strong></td><td><span class="wg-badge genius">I</span></td><td>Generates novel ideas and solutions to address identified needs</td><td>Creating new discipleship pathways, series concepts, ministry systems</td></tr>
-        <tr><td><strong>Discernment</strong></td><td><span class="wg-badge competency">D</span></td><td>Assesses the merit and workability of ideas with gut instinct</td><td>Evaluating which new idea to pursue; spotting what's off about a plan</td></tr>
-        <tr><td><strong>Galvanizing</strong></td><td><span class="wg-badge competency">G</span></td><td>Generates enthusiasm and rallies people around the idea</td><td>Preaching vision, recruiting volunteers, launching new initiatives</td></tr>
-        <tr><td><strong>Enablement</strong></td><td><span class="wg-badge frustration">E</span></td><td>Provides unconditional support and assistance to get things started</td><td>Supporting group leaders, saying yes to serving needs, pastoral care</td></tr>
-        <tr><td><strong>Tenacity</strong></td><td><span class="wg-badge frustration">T</span></td><td>Commits to ensuring the project gets completed and results are achieved</td><td>Executing the Sunday run-of-show, following up on every guest, closing the loop</td></tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-
-<!-- ======================== MEETING PULSE ======================== -->
-<div class="section" id="meetings">
-  <div class="section-header">
-    <div class="eyebrow">Tool 07</div>
-    <h2>Meeting Pulse</h2>
-    <p>EOS replaces random meetings with a predictable, productive rhythm. Every meeting has a clear purpose, agenda, and time limit. Stop having meetings about meetings.</p>
-  </div>
-
-  <div class="grid-2">
-    <div class="meeting-card">
-      <h3>Level 10 Meeting (L10)</h3>
-      <div class="freq">Weekly · 90 Minutes · Same Day &amp; Time Every Week</div>
-      <div class="agenda-item"><div class="agenda-time">5 min</div><div>Segue — one good news personally, one professionally</div></div>
-      <div class="agenda-item"><div class="agenda-time">5 min</div><div>Scorecard review — note any reds, no discussion yet</div></div>
-      <div class="agenda-item"><div class="agenda-time">5 min</div><div>Rock review — each person: On Track or Off Track only</div></div>
-      <div class="agenda-item"><div class="agenda-time">5 min</div><div>Customer / People Headlines — guest or staff issues to surface</div></div>
-      <div class="agenda-item"><div class="agenda-time">5 min</div><div>To-Do list review — check prior week's 7-day actions</div></div>
-      <div class="agenda-item"><div class="agenda-time">60 min</div><div>IDS — Identify, Discuss, Solve the top 3 issues (prioritized)</div></div>
-      <div class="agenda-item"><div class="agenda-time">5 min</div><div>Conclude — rate the meeting 1–10; recap to-dos</div></div>
-    </div>
-
-    <div class="meeting-card">
-      <h3>Quarterly Business Owner's Meeting (QBOP)</h3>
-      <div class="freq">Quarterly · Full Day · Off Campus</div>
-      <div class="agenda-item"><div class="agenda-time">AM</div><div>Review prior quarter — rocks complete? What did we learn?</div></div>
-      <div class="agenda-item"><div class="agenda-time">AM</div><div>Review V/TO — vision still clear and shared? Any updates?</div></div>
-      <div class="agenda-item"><div class="agenda-time">Mid</div><div>People review — right people, right seats? VOT check-in</div></div>
-      <div class="agenda-item"><div class="agenda-time">PM</div><div>IDS biggest issues entering next quarter</div></div>
-      <div class="agenda-item"><div class="agenda-time">PM</div><div>Set rocks for next quarter — company first, then individual</div></div>
-      <div class="agenda-item"><div class="agenda-time">End</div><div>Team health + celebrate wins from the past quarter</div></div>
-    </div>
-
-    <div class="meeting-card">
-      <h3>Quarterly 1-on-1 (People Chat)</h3>
-      <div class="freq">Quarterly · 60 Minutes · Brad with each Director</div>
-      <div class="agenda-item"><div class="agenda-time">10 min</div><div>Personal check-in — life, soul, family, energy</div></div>
-      <div class="agenda-item"><div class="agenda-time">15 min</div><div>VOT review — score each of the 4 values together honestly</div></div>
-      <div class="agenda-item"><div class="agenda-time">15 min</div><div>Rocks and measurables — are they hitting their numbers?</div></div>
-      <div class="agenda-item"><div class="agenda-time">10 min</div><div>Development — what do they want to grow in this next quarter?</div></div>
-      <div class="agenda-item"><div class="agenda-time">10 min</div><div>Forward — what is their rock for next quarter?</div></div>
-    </div>
-
-    <div class="meeting-card">
-      <h3>Annual Planning (Focus Day)</h3>
-      <div class="freq">Annually · 2 Days · Visionary-Led Off Campus</div>
-      <div class="agenda-item"><div class="agenda-time">Day 1</div><div>Review the year — data, stories, wins, misses, surprises</div></div>
-      <div class="agenda-item"><div class="agenda-time">Day 1</div><div>Update V/TO — 10-year target, 3-year picture, 1-year plan</div></div>
-      <div class="agenda-item"><div class="agenda-time">Day 2</div><div>Set Q1 rocks for all seats; budget and calendar alignment</div></div>
-      <div class="agenda-item"><div class="agenda-time">Day 2</div><div>Team health, culture audit, and value renewal</div></div>
-    </div>
-  </div>
-
-  <div class="card" style="margin-top:20px;">
-    <div class="card-title">LS-Specific Meeting Add-Ons <span class="badge">Church Context</span></div>
-    <div class="card-subtitle">EOS doesn't replace these — it runs alongside them</div>
-    <ul class="metric-list">
-      <li><strong>Weekly Sunday Debrief</strong> (15 min, same day or Monday) — What happened? What needs to improve next week?</li>
-      <li><strong>Monthly Liturgy / Creative Sync</strong> — Ryan, Gordon, John, Brad: upcoming series, sermon themes, creative direction</li>
-      <li><strong>Quarterly Leader Meeting</strong> — CG Leaders, Team Leads, Coaches: vision, training, celebration</li>
-      <li><strong>Elder / Board Meeting</strong> — Ryan leads; Brad prepares data summary and scorecard</li>
-      <li><strong>Staff Devotional</strong> — Separate from L10. Keep the soul of the team spiritually fed. Not a business meeting.</li>
-      <li><strong>Monthly Stepping Stones Team Lead Meeting</strong> — Geoffrey leads; builds ownership and collaboration among volunteer leads</li>
-    </ul>
-  </div>
-</div>
-
-<!-- ======================== IDS ======================== -->
-<div class="section" id="ids">
-  <div class="section-header">
-    <div class="eyebrow">Tool 08</div>
-    <h2>Issues List &amp; IDS Process</h2>
-    <p>IDS — Identify, Discuss, Solve — is how you actually fix problems instead of talking around them forever. The Issues List is the shared, visible list of everything getting in the way.</p>
-  </div>
-
-  <div class="highlight-box">
-    <h3>The IDS Rule</h3>
-    <p>Whoever identifies an issue owns putting it on the list — not solving it alone. The team solves it together in the L10. Issues are prioritized by impact, not urgency. An issue that recurs 3x becomes a Rock to fix systemically. No "holy avoidance" — name things clearly.</p>
-  </div>
-
-  <div class="grid-2">
-    <div>
-      <div class="card" style="margin-bottom:16px;">
-        <div class="card-title">Current Issues List <span class="badge">Live</span></div>
-        <div class="card-subtitle">Add issues in the Google Sheet — this list updates automatically</div>
-        <table class="scorecard-table" id="issues-table">
-          <thead><tr><th>Issue</th><th>Added By</th><th>Priority</th></tr></thead>
-          <tbody id="issues-tbody"><!-- populated by JS --></tbody>
-        </table>
-      </div>
-
-      <div class="ids-box">
-        <h4>The 3-Step IDS Process</h4>
-        <ul>
-          <li><strong>Identify</strong> — State the real issue, not the symptom. "Sundays feel rushed" → issue is "no documented run-of-show assigned." Be specific.</li>
-          <li><strong>Discuss</strong> — Open the floor until the root issue is truly clear. Don't jump to solutions. Time-boxed to ~15 min/issue.</li>
-          <li><strong>Solve</strong> — Create one To-Do: one owner, one due date. Issue is resolved or removed. Done.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div>
-      <div class="ids-box">
-        <h4>LS-Specific IDS Culture Notes</h4>
-        <ul>
-          <li>Name personnel and pastoral issues clearly. Calling it "tension" doesn't solve it.</li>
-          <li>Issues belong to the team, not the person who raised them. No retaliation culture.</li>
-          <li>Never escalate to Ryan what Brad can solve. Never escalate to Brad what a director can solve.</li>
-          <li>IDS is not a venting session. Time-box discussion.</li>
-          <li>The Stepping Stones transition (post-Feb 2025) created systemic issues — these are Rocks, not just IDS items.</li>
-          <li>The Wonder gap means issues may not surface until they're critical. Build in explicit "What are we missing?" as a standing L10 prompt.</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <div class="card-title">IDS to Rock Escalation <span class="badge">Rule of 3</span></div>
-        <div class="card-subtitle">When an issue keeps coming back, it needs a Rock, not just a To-Do</div>
-        <ul class="metric-list">
-          <li>Issue appears in IDS for the 1st time → To-Do with owner + due date</li>
-          <li>Issue reappears for 2nd time → escalate priority; examine root cause</li>
-          <li>Issue appears for 3rd time → becomes a company Rock next quarter</li>
-          <li>Issues that involve "Right Person / Right Seat" → always escalate to Brad for private 1-on-1 follow-up</li>
-          <li>Building / facility issues → Ryan + Brad own together; surface at every QBOP</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ======================== SETUP ======================== -->
-<div class="section" id="setup" style="display:none">
-  <div class="section-header">
-    <div class="eyebrow">Tool 09 — Admin</div>
-    <h2>Google Sheets Setup &amp; Live Data</h2>
-    <p>This page can pull live data from a Google Sheet via GitHub. Follow these steps once to connect everything. After that, just update the Sheet — the page updates automatically.</p>
-  </div>
-
-  <div class="highlight-box">
-    <h3>How It Works</h3>
-    <p>Google Sheet (you edit) → Apps Script (auto-runs) → GitHub JSON file → This webpage (fetches on load). You enter data in the Sheet. The Script pushes it to a JSON file in your GitHub repo. This page reads that JSON every time it loads. Update the DATA_URL below once your repo is set up.</p>
-  </div>
-
-  <div class="setup-step">
-    <h4>Step 1 — Create the Google Sheet</h4>
-    <p>Create a new Google Sheet named <strong>"LS South Reno Staff OS"</strong> with these tabs:</p>
-    <ol>
-      <li><strong>Scorecard</strong> — Columns: Metric | Owner | Goal | Current | Status (green/red/yellow) | Notes</li>
-      <li><strong>Rocks</strong> — Columns: Title | Owner | Quarter | Status (on-track/off-track/complete) | Type (company/individual) | Notes</li>
-      <li><strong>Issues</strong> — Columns: Issue | AddedBy | Priority (high/med/low) | Status (open/resolved)</li>
-      <li><strong>VTO</strong> — Columns: Key | Value (for any V/TO fields you want to update live)</li>
-    </ol>
-    <p style="margin-top:8px;">Fill in the Scorecard and Rocks tabs with the starter data from this page (see the JS data below for the defaults).</p>
-  </div>
-
-  <div class="setup-step">
-    <h4>Step 2 — Create a GitHub Repository</h4>
-    <ol>
-      <li>Create a new GitHub repo (e.g., <strong>lssr-staff-os</strong>)</li>
-      <li>Add a folder called <strong>data/</strong> and create a file <strong>data/eos-data.json</strong> with content: <code>{}</code></li>
-      <li>Generate a GitHub Personal Access Token (Settings → Developer Settings → Tokens) with <strong>repo</strong> scope</li>
-      <li>Note your repo in the format: <strong>YourUsername/lssr-staff-os</strong></li>
-    </ol>
-  </div>
-
-  <div class="setup-step">
-    <h4>Step 3 — Add Apps Script to the Google Sheet</h4>
-    <p>In the Google Sheet, go to <strong>Extensions → Apps Script</strong> and paste this code:</p>
-  </div>
-
-  <div style="position:relative;">
-    <button class="copy-btn" onclick="copyScript()">Copy Script</button>
-    <div class="code-block" id="gas-code">// LS South Reno Staff OS — Google Apps Script
-// Paste into Extensions → Apps Script in your Google Sheet
-// Set GITHUB_TOKEN in Script Properties (Project Settings → Script Properties)
-
-const GITHUB_REPO = 'LSSouthReno/lssr-staff-os';
-const GITHUB_FILE = 'data/eos-data.json';
-
-function getSpreadsheet() {
-  // Works whether called from the sheet menu, the editor Run button, or a trigger
-  let ss = SpreadsheetApp.getActiveSpreadsheet();
-  if (!ss) {
-    const id = PropertiesService.getScriptProperties().getProperty('SPREADSHEET_ID');
-    if (id) ss = SpreadsheetApp.openById(id);
-  }
-  if (!ss) throw new Error('Cannot find spreadsheet. Open this script from Extensions → Apps Script inside your "LS South Reno Staff OS" sheet, or add SPREADSHEET_ID to Script Properties.');
-  return ss;
-}
-
-function pushToGitHub() {
-  const ss = getSpreadsheet();
-  const data = {
-    meta: {
-      lastUpdated: new Date().toISOString().split('T')[0],
-      quarter: getCell(ss, 'VTO', 'quarter') || 'Q2 2026'
-    },
-    scorecard: getSheetData(ss, 'Scorecard', ['metric','owner','goal','current','status','notes']),
-    rocks:     getSheetData(ss, 'Rocks',     ['title','owner','quarter','status','type','notes']),
-    issues:    getSheetData(ss, 'Issues',    ['issue','addedBy','priority','status'])
-  };
-
-  const token = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
-  if (!token) { Logger.log('ERROR: Set GITHUB_TOKEN in Script Properties'); return; }
-
-  // Get current file SHA (required for updates)
-  const getUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/${GITHUB_FILE}`;
-  const getRes = UrlFetchApp.fetch(getUrl, {
-    headers: { 'Authorization': `token ${token}`, 'Accept': 'application/vnd.github.v3+json' },
-    muteHttpExceptions: true
-  });
-  const sha = JSON.parse(getRes.getContentText()).sha || null;
-
-  // Push updated JSON
-  const body = {
-    message: `Update EOS data — ${data.meta.lastUpdated}`,
-    content: Utilities.base64Encode(JSON.stringify(data, null, 2)),
-    sha: sha
-  };
-
-  const putRes = UrlFetchApp.fetch(getUrl, {
-    method: 'PUT',
-    headers: {
-      'Authorization': `token ${token}`,
-      'Accept': 'application/vnd.github.v3+json',
-      'Content-Type': 'application/json'
-    },
-    payload: JSON.stringify(body),
-    muteHttpExceptions: true
-  });
-
-  const result = JSON.parse(putRes.getContentText());
-  Logger.log(result.commit ? '✅ Pushed to GitHub: ' + result.commit.sha : '❌ Error: ' + JSON.stringify(result));
-}
-
-function getSheetData(ss, sheetName, headers) {
-  const sheet = ss.getSheetByName(sheetName);
-  if (!sheet) { Logger.log('Sheet not found: ' + sheetName); return []; }
-  const rows = sheet.getDataRange().getValues();
-  return rows.slice(1)
-    .filter(r => r[0] && r[0].toString().trim() !== '')
-    .map(r => {
-      const obj = {};
-      headers.forEach((h, i) => { obj[h] = r[i] ? r[i].toString().trim() : ''; });
-      return obj;
-    });
-}
-
-function getCell(ss, sheetName, key) {
-  const sheet = ss.getSheetByName(sheetName);
-  if (!sheet) return null;
-  const data = sheet.getDataRange().getValues();
-  for (const row of data) {
-    if (row[0] && row[0].toString().toLowerCase() === key.toLowerCase()) return row[1].toString();
-  }
-  return null;
-}
-
-function createTrigger() {
-  ScriptApp.newTrigger('pushToGitHub').timeBased().everyHours(1).create();
-  Logger.log('Trigger created — will push every hour');
-}
-
-function onOpen() {
-  SpreadsheetApp.getUi().createMenu('🏛 Staff OS')
-    .addItem('Push to GitHub Now', 'pushToGitHub')
-    .addItem('Set Up Hourly Auto-Push', 'createTrigger')
-    .addToUi();
-}
-</div>
-  </div>
-
-  <div class="setup-step">
-    <h4>Step 4 — Set Script Properties</h4>
-    <ol>
-      <li>In Apps Script editor, click <strong>Project Settings (⚙)</strong> → <strong>Script Properties</strong></li>
-      <li>Add property: Key = <strong>GITHUB_TOKEN</strong>, Value = your GitHub personal access token</li>
-      <li>The <strong>GITHUB_REPO</strong> constant is already set to <code>LSSouthReno/lssr-staff-os</code> — no changes needed</li>
-      <li>Click <strong>Run → pushToGitHub</strong> to test. Check the Execution Log.</li>
-    </ol>
-  </div>
-
-  <div class="setup-step">
-    <h4>Step 5 — You're Live</h4>
-    <p>The page is already connected. <code>DATA_URL</code> is set to:</p>
-    <div style="background:#1e1e1e;color:#d4d4d4;font-family:'DM Mono',monospace;font-size:12px;padding:12px 16px;border-radius:4px;margin:10px 0;">https://raw.githubusercontent.com/LSSouthReno/lssr-staff-os/main/data/eos-data.json</div>
-    <p>Every page load fetches the latest data from GitHub. The green dot in the header confirms live data is loaded. Once you push from the Sheet, the page refreshes with your real numbers.</p>
-  </div>
-
-  <div class="card" style="margin-top:8px;">
-    <div class="card-title">Sharing With the Team <span class="badge">Access</span></div>
-    <ul class="metric-list">
-      <li>Host <code>index.html</code> anywhere: GitHub Pages, Dropbox, local network share, or email the file directly</li>
-      <li>The page is fully self-contained — it works offline with embedded defaults, or pulls live data when hosted with internet access</li>
-      <li>For GitHub Pages: go to repo Settings → Pages → Deploy from main branch → your URL will be <code>YourUsername.github.io/lssr-staff-os</code></li>
-      <li>Staff only need the URL — no login required. Keep sensitive data (personnel issues) out of the Google Sheet if you're hosting publicly</li>
-    </ul>
-  </div>
-</div>
-
+  <div class="section active" id="vto"></div>
+  <div class="section" id="culture"></div>
+  <div class="section" id="acc-chart"></div>
+  <div class="section" id="scorecard"></div>
+  <div class="section" id="rocks"></div>
+  <div class="section" id="team"></div>
+  <div class="section" id="meetings"></div>
+  <div class="section" id="ids"></div>
 </main>
 
-<footer>
+<footer id="footer-text">
   Living Stones South Reno — Staff Operating System · Humble · Hungry · Happy · Honest · <span id="footer-quarter">Q2 2026</span>
 </footer>
 
 <script>
-// ─────────────────────────────────────────────────────────────────────────────
-// DATA_URL: GitHub raw JSON — updated by Google Sheets Apps Script pipeline.
-// ─────────────────────────────────────────────────────────────────────────────
 const DATA_URL = 'https://raw.githubusercontent.com/LSSouthReno/lssr-staff-os/main/data/eos-data.json';
 
-// ─────────────────────────────────────────────────────────────────────────────
-// DEFAULT DATA — edit this directly, or override via the Google Sheet pipeline
-// ─────────────────────────────────────────────────────────────────────────────
-const DEFAULT_DATA = {
-  meta: {
-    quarter: 'Q2 2026',
-    lastUpdated: '2026-05-20'
-  },
-  scorecard: [
-    { metric: 'AWA — Adults (Weekend Attendance)', owner: 'Ryan Griffin', goal: '900+', current: '', status: 'grey', notes: 'Current: 800 (Jan 2026)' },
-    { metric: 'AWA — Stepping Stones (Kids)', owner: 'Geoffrey Caliger', goal: '200+', current: '', status: 'grey', notes: 'Current: 130 (Jan 2026)' },
-    { metric: 'First-Time Guests', owner: 'Brad Borowski', goal: '[set goal]', current: '', status: 'grey', notes: 'Track in Planning Center' },
-    { metric: 'Guest Follow-Up Rate (within 48 hrs)', owner: 'Adam Carp', goal: '100%', current: '', status: 'grey', notes: 'Critical front-door metric' },
-    { metric: 'Active Church Members', owner: 'Rachel Primus', goal: '462+', current: '', status: 'grey', notes: 'Current: 362 (Jan 2026); goal 75% active in serving/giving/group' },
-    { metric: 'Community Groups Active', owner: 'Adam Carp', goal: '50+', current: '', status: 'grey', notes: 'Current: 33 groups (Jan 2026)' },
-    { metric: 'Community Group Members (Active)', owner: 'Adam Carp', goal: '500+', current: '', status: 'grey', notes: 'Current: 387 members (Jan 2026)' },
-    { metric: 'CG Attendance Rate', owner: 'Adam Carp', goal: '75%+', current: '', status: 'grey', notes: 'Current: 50% (Jan 2026)' },
-    { metric: 'Active CG Leaders', owner: 'Adam Carp', goal: '50+', current: '', status: 'grey', notes: '17 new CG leaders launched in 2025' },
-    { metric: 'People Serving (Total)', owner: 'Brad Borowski', goal: '325+', current: '', status: 'grey', notes: 'Current: 254 people, 60% of members (Jan 2026)' },
-    { metric: 'Stepping Stones Vol. Fill Rate', owner: 'Geoffrey Caliger', goal: '95%+', current: '', status: 'grey', notes: 'Target: 32+ trained volunteers in rotation' },
-    { metric: 'All-In Giving YTD vs. $3,675,000 Goal', owner: 'Rachel Primus', goal: '≥ Pace', current: '', status: 'grey', notes: '2-year All-In campaign; $2,998,252 given through Jan 2026' },
-    { metric: 'Weekly Giving vs. Budget', owner: 'Rachel Primus', goal: '≥ Budget pace', current: '', status: 'grey', notes: '' },
-    { metric: 'Sunday Production Issues', owner: 'Gordon Fava', goal: '0', current: '', status: 'grey', notes: 'Any tech/production fail that affects the service' },
-    { metric: 'Weekly Email Open Rate', owner: 'John Conelea', goal: '≥ 30%', current: '', status: 'grey', notes: 'Industry avg ~22%; 30%+ is healthy for church email' },
-    { metric: 'Social Media Reach (Weekly)', owner: 'John Conelea', goal: '[set goal]', current: '', status: 'grey', notes: '' },
-    { metric: 'Student Ministry Attendance (Weekly)', owner: 'Isaac Griffin', goal: '65+', current: '', status: 'grey', notes: 'Current: ~50/week (Jan 2026); 25%+ YOY growth target' },
-    { metric: 'Baptisms (YTD)', owner: 'Ryan Griffin', goal: '80+', current: '', status: 'grey', notes: 'Goal = 10% of avg attendance; 75 baptisms in 2025' },
-    { metric: 'Leader Launch Graduates (YTD)', owner: 'Brad Borowski', goal: '25', current: '', status: 'grey', notes: '18 grads in 2025; goal 25 new grads in 2026' },
-    { metric: 'Staff 1-on-1 Completion Rate', owner: 'Brad Borowski', goal: '100% quarterly', current: '', status: 'grey', notes: '' }
-  ],
-  rocks: [
-    { title: 'EOS Rhythm Established: L10 meetings running for all directors, scorecard live and reviewed weekly', owner: 'Brad Borowski', quarter: 'Q2 2026', status: 'on-track', type: 'company' },
-    { title: 'Building Search: 3 viable sites identified and financial model presented to Elders', owner: 'Brad + Ryan', quarter: 'Q2 2026', status: 'tbd', type: 'company' },
-    { title: 'Discipleship Pathway: Guest → Member → Leader → Missionary fully documented with clear entry/exit criteria', owner: 'Adam Carp', quarter: 'Q2 2026', status: 'tbd', type: 'company' },
-    { title: 'Creative Calendar: All Sunday creative assets delivered 6 weeks in advance with zero last-minute requests', owner: 'John Conelea', quarter: 'Q2 2026', status: 'tbd', type: 'company' },
-    { title: 'Stepping Stones: 32+ trained volunteers in active rotation; all Sunday slots covered 8+ weeks out', owner: 'Geoffrey Caliger', quarter: 'Q2 2026', status: 'off-track', type: 'individual' },
-    { title: 'Music Catalog: Process documented; 3 stale songs removed and 3 new songs submitted to Ryan for approval', owner: 'Gordon Fava', quarter: 'Q2 2026', status: 'tbd', type: 'individual' },
-    { title: 'Student Summer Camp: Fully planned, promoted, and registration open by June 1', owner: 'Isaac Griffin', quarter: 'Q2 2026', status: 'tbd', type: 'individual' },
-    { title: 'Financial Dashboard: Weekly giving + budget variance report live and automated by end of quarter', owner: 'Rachel Primus', quarter: 'Q2 2026', status: 'tbd', type: 'individual' },
-    { title: 'CG Growth: 3 new community groups launched with trained leaders in place', owner: 'Adam Carp', quarter: 'Q2 2026', status: 'tbd', type: 'individual' }
-  ],
-  issues: [
-    { issue: 'Two "Student Ministry Director" titles in org chart — role clarity and seat definition needed between Isaac and Katie', addedBy: 'Brad', priority: 'high', status: 'open' },
-    { issue: 'Building search has no clear week-to-week owner or defined decision framework — risk of drift', addedBy: 'Brad', priority: 'high', status: 'open' },
-    { issue: 'Stepping Stones volunteer numbers still rebuilding post-transition (Feb 2025) — fill rate below target', addedBy: 'Geoffrey', priority: 'high', status: 'open' },
-    { issue: 'Creative asset lead times compressed — pastoral team often provides series info too late for quality work', addedBy: 'John Conelea', priority: 'med', status: 'open' },
-    { issue: 'CG attendance rate at 50% vs 75%+ goal — engagement strategy needed to close the gap', addedBy: 'Adam Carp', priority: 'med', status: 'open' },
-    { issue: 'No dedicated Missions Team Leader identified — missions momentum at risk without a person who owns it', addedBy: 'Ryan', priority: 'med', status: 'open' },
-    { issue: 'Team Wonder/Galvanizing gap — need to intentionally build "What are we missing?" into the L10 rhythm', addedBy: 'Brad', priority: 'low', status: 'open' }
-  ]
-};
-
-// ─────────────────────────────────────────────────────────────────────────────
-// WORKING GENIUS TEAM DATA
-// ─────────────────────────────────────────────────────────────────────────────
-const TEAM_DATA = [
-  {
-    name: 'Ryan Griffin',
-    role: 'Lead Pastor (Visionary)',
-    genius: ['Galvanizing', 'Discernment'],
-    competency: ['Invention', 'Tenacity'],
-    frustration: ['Enablement', 'Wonder'],
-    pairing: 'GD | DG — The Intuitive Activator',
-    pairingDesc: 'An instinctive and confident decision-maker. Able to assess situations quickly and marshal people to act.'
-  },
-  {
-    name: 'Brad Borowski',
-    role: 'Executive Pastor (Integrator)',
-    genius: ['Tenacity', 'Invention'],
-    competency: ['Discernment', 'Galvanizing'],
-    frustration: ['Wonder', 'Enablement'],
-    pairing: 'TI | IT — The Methodical Architect',
-    pairingDesc: 'A precise, reliable, and planful solver of problems. Combines innovative thinking with practical implementation.'
-  },
-  {
-    name: 'Adam Carp',
-    role: 'Discipleship Pastor',
-    genius: ['Invention', 'Wonder'],
-    competency: ['Tenacity', 'Discernment'],
-    frustration: ['Enablement', 'Galvanizing'],
-    pairing: 'IW | WI — The Creative Dreamer',
-    pairingDesc: 'A passionate idealist with an endless stream of big questions and ideas to consider. Comfortable with open-ended exploration.'
-  },
-  {
-    name: 'Gordon Fava',
-    role: 'Worship Director',
-    genius: ['Wonder', 'Tenacity'],
-    competency: ['Discernment', 'Galvanizing'],
-    frustration: ['Invention', 'Enablement'],
-    pairing: 'WT | TW — The Careful Implementer',
-    pairingDesc: 'A thorough, practical, and careful contributor. A unique combination of steady reliability and quiet depth.'
-  },
-  {
-    name: 'John Conelea',
-    role: 'Creative Director',
-    genius: ['Tenacity', 'Invention'],
-    competency: ['Discernment', 'Enablement'],
-    frustration: ['Galvanizing', 'Wonder'],
-    pairing: 'TI | IT — The Methodical Architect',
-    pairingDesc: 'A precise, reliable, and planful solver of problems. Gets creative work done — on time, on brief, every time.'
-  },
-  {
-    name: 'Katie Thompson',
-    role: 'Student Ministry Director',
-    genius: ['Discernment', 'Galvanizing'],
-    competency: ['Tenacity', 'Invention'],
-    frustration: ['Enablement', 'Wonder'],
-    pairing: 'DG | GD — The Intuitive Activator',
-    pairingDesc: 'An instinctive and confident decision-maker who can assess and marshal people to act. Strong for student ministry leadership.'
-  },
-  {
-    name: 'Geoffrey Caliger',
-    role: 'Stepping Stones Staffing Director',
-    genius: ['Tenacity', 'Wonder'],
-    competency: ['Discernment', 'Enablement'],
-    frustration: ['Galvanizing', 'Invention'],
-    pairing: 'TW | WT — The Persistent Questioner',
-    pairingDesc: 'Pairs big-picture curiosity with relentless follow-through. Asks the right questions and doesn\'t stop until the work is done — essential for building and sustaining volunteer systems.'
-  },
-  {
-    name: 'Isaac Griffin',
-    role: 'Student Ministry Director',
-    genius: ['Enablement', 'Tenacity'],
-    competency: ['Galvanizing', 'Wonder'],
-    frustration: ['Discernment', 'Invention'],
-    pairing: 'ET | TE — The Loyal Finisher',
-    pairingDesc: 'Responsive, supportive, and determined to push work over the finish line. Shows up for people and sees commitments through — a steady and energizing presence for students.'
-  },
-  {
-    name: 'Deana Griffin',
-    role: 'Stepping Stones Curriculum Director',
-    genius: ['Discernment', 'Wonder'],
-    competency: ['Invention', 'Enablement'],
-    frustration: ['Galvanizing', 'Tenacity'],
-    pairing: 'DW | WD — The Reflective Visionary',
-    pairingDesc: 'A deep thinker who pairs curiosity with strong instincts. Asks the right questions and trusts what\'s true — naturally strong for curriculum development and formative work with kids.'
-  },
-  {
-    name: 'Keith Primus',
-    role: 'Benevolence Leader (Volunteer)',
-    genius: ['Discernment', 'Enablement'],
-    competency: ['Galvanizing', 'Wonder'],
-    frustration: ['Tenacity', 'Invention'],
-    pairing: 'DE | ED — The Insightful Collaborator',
-    pairingDesc: 'An intuitive, empathic advisor and team player. Selfless in providing others with what they need in the right way. Ideal for pastoral care and benevolence work.'
-  },
-  {
-    name: 'Rachel Primus',
-    role: 'Administrative Director',
-    genius: ['Enablement', 'Tenacity'],
-    competency: ['Wonder', 'Discernment'],
-    frustration: ['Invention', 'Galvanizing'],
-    pairing: 'ET | TE — The Loyal Finisher',
-    pairingDesc: 'A responsive, dependable doer. Willing to step up when something is needed and determined to fulfill commitments. Strong for admin and operations.'
-  }
-];
-
-// ─────────────────────────────────────────────────────────────────────────────
-// RENDER FUNCTIONS
-// ─────────────────────────────────────────────────────────────────────────────
-function renderScorecard(data) {
-  const tbody = document.getElementById('scorecard-tbody');
-  if (!tbody) return;
-  tbody.innerHTML = data.scorecard.map(row => {
-    const dotClass = 'status-' + (row.status || 'grey');
-    const currentDisplay = row.current || '<span style="color:var(--muted);font-size:11px;">—</span>';
-    return `<tr>
-      <td><span class="status-dot ${dotClass}"></span></td>
-      <td><strong>${row.metric}</strong>${row.notes ? `<br><span style="font-size:11px;color:var(--muted);">${row.notes}</span>` : ''}</td>
-      <td><span class="owner-tag">${row.owner.split(' ').map(w=>w[0]).join('').substring(0,4) || row.owner}</span></td>
-      <td style="font-family:'DM Mono',monospace;font-size:12px;">${row.goal}</td>
-      <td class="current-val">${currentDisplay}</td>
-      <td style="font-size:12px;color:var(--muted);">${row.notes || ''}</td>
-    </tr>`;
-  }).join('');
+// ── NAV ──────────────────────────────────────────────────────────────────────
+function buildNav(tabs) {
+  const nav = document.getElementById('nav-tabs');
+  nav.innerHTML = '';
+  const visible = tabs.filter(t => t.visible !== false);
+  visible.forEach((t, i) => {
+    const div = document.createElement('div');
+    div.className = 'nav-tab' + (i === 0 ? ' active' : '');
+    div.textContent = t.label;
+    div.onclick = () => showSection(t.id, div);
+    nav.appendChild(div);
+  });
+  // Show first visible section
+  if (visible.length) showSection(visible[0].id, nav.querySelector('.nav-tab'));
 }
 
-function renderRocks(data) {
-  const companyEl = document.getElementById('company-rocks');
-  const indivEl = document.getElementById('individual-rocks');
-  if (!companyEl || !indivEl) return;
-
-  const company = data.rocks.filter(r => r.type === 'company');
-  const individual = data.rocks.filter(r => r.type !== 'company');
-
-  const rockHtml = (rocks) => rocks.map(r => {
-    const status = r.status || 'tbd';
-    const label = { 'on-track': 'On Track', 'off-track': 'Off Track', 'complete': 'Complete', 'tbd': 'Set Status' }[status] || status;
-    return `<div class="rock-item">
-      <div>
-        <strong>Owner: ${r.owner} · ${r.quarter}</strong>
-        ${r.title}
-      </div>
-      <span class="rock-status ${status}">${label}</span>
-    </div>`;
-  }).join('');
-
-  companyEl.innerHTML = rockHtml(company);
-  indivEl.innerHTML = rockHtml(individual);
-}
-
-function renderIssues(data) {
-  const tbody = document.getElementById('issues-tbody');
-  if (!tbody) return;
-  const open = data.issues.filter(i => i.status === 'open' || !i.status);
-  tbody.innerHTML = open.map(i => `<tr>
-    <td>${i.issue}</td>
-    <td><span class="owner-tag">${i.addedBy}</span></td>
-    <td><span class="priority ${i.priority}">${i.priority}</span></td>
-  </tr>`).join('');
-}
-
-function renderTeam() {
-  const grid = document.getElementById('wg-team-grid');
-  if (!grid) return;
-  grid.innerHTML = TEAM_DATA.map(p => `
-    <div class="wg-card">
-      <div class="wg-card-name">${p.name}</div>
-      <div class="wg-card-role">${p.role}</div>
-      <div class="wg-pairing">${p.pairing}</div>
-      <div style="font-size:12px;color:var(--muted);margin-bottom:10px;font-style:italic;">${p.pairingDesc}</div>
-      <div class="wg-label genius-label">Working Genius</div>
-      <div class="wg-row">${p.genius.map(g=>`<span class="wg-badge genius">${g}</span>`).join('')}</div>
-      <div class="wg-label comp-label" style="margin-top:8px;">Working Competency</div>
-      <div class="wg-row">${p.competency.map(g=>`<span class="wg-badge competency">${g}</span>`).join('')}</div>
-      <div class="wg-label frust-label" style="margin-top:8px;">Working Frustration</div>
-      <div class="wg-row">${p.frustration.map(g=>`<span class="wg-badge frustration">${g}</span>`).join('')}</div>
-    </div>
-  `).join('');
-}
-
-function renderMeta(data) {
-  const q = data.meta.quarter || 'Q2 2026';
-  const d = data.meta.lastUpdated || '';
-  document.getElementById('quarter-display').textContent = q;
-  document.getElementById('footer-quarter').textContent = q;
-  if (d) document.getElementById('last-updated-display').textContent = 'Last updated: ' + d;
-}
-
-function renderAll(data) {
-  renderMeta(data);
-  renderScorecard(data);
-  renderRocks(data);
-  renderIssues(data);
-  renderTeam();
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// DATA LOADING
-// ─────────────────────────────────────────────────────────────────────────────
-async function loadData() {
-  if (DATA_URL) {
-    try {
-      const res = await fetch(DATA_URL + '?t=' + Date.now());
-      if (res.ok) {
-        const liveData = await res.json();
-        const merged = Object.assign({}, DEFAULT_DATA, liveData);
-        // Deep merge arrays — if live data has the array, use it
-        if (liveData.scorecard?.length) merged.scorecard = liveData.scorecard;
-        if (liveData.rocks?.length) merged.rocks = liveData.rocks;
-        if (liveData.issues?.length) merged.issues = liveData.issues;
-        renderAll(merged);
-        document.getElementById('live-dot').classList.add('green');
-        document.getElementById('data-source-label').textContent = 'live data';
-        return;
-      }
-    } catch(e) {
-      console.warn('Could not fetch live data, using defaults:', e.message);
-    }
-  }
-  renderAll(DEFAULT_DATA);
-  document.getElementById('data-source-label').textContent = 'local data';
-}
-
-// ─────────────────────────────────────────────────────────────────────────────
-// NAV
-// ─────────────────────────────────────────────────────────────────────────────
 function showSection(id, tabEl) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
@@ -1713,21 +643,455 @@ function showSection(id, tabEl) {
   if (tabEl) tabEl.classList.add('active');
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
-// COPY SCRIPT
-// ─────────────────────────────────────────────────────────────────────────────
-function copyScript() {
-  const code = document.getElementById('gas-code').textContent;
-  navigator.clipboard.writeText(code).then(() => {
-    const btn = document.querySelector('.copy-btn');
-    btn.textContent = 'Copied!';
-    setTimeout(() => btn.textContent = 'Copy Script', 2000);
-  });
+// ── HEADER ────────────────────────────────────────────────────────────────────
+function renderHeader(data) {
+  const h = data.header || {};
+  const q = (data.meta || {}).quarter || 'Q2 2026';
+  const d = (data.meta || {}).lastUpdated || '';
+  if (h.org_tag)         document.getElementById('hdr-org-tag').textContent = h.org_tag;
+  if (h.title)           document.getElementById('hdr-title').childNodes[0].textContent = h.title + ' ';
+  if (h.title_highlight) document.getElementById('hdr-highlight').textContent = h.title_highlight;
+  if (h.subtitle)        document.getElementById('hdr-subtitle').textContent = h.subtitle;
+  if (h.scripture)       document.getElementById('hdr-scripture').textContent = h.scripture;
+  if (h.footer) {
+    document.getElementById('footer-text').innerHTML = h.footer + ' · <span id="footer-quarter">' + q + '</span>';
+  }
+  document.getElementById('quarter-display').textContent = q;
+  document.getElementById('footer-quarter').textContent = q;
+  if (d) document.getElementById('last-updated-display').textContent = 'Last updated: ' + d;
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
-// INIT
-// ─────────────────────────────────────────────────────────────────────────────
+// ── VTO ───────────────────────────────────────────────────────────────────────
+function renderVTO(vto) {
+  if (!vto) return;
+  const el = document.getElementById('vto');
+
+  const methodsHtml = (vto.ministry_methods || []).map(m =>
+    `<div class="method-pill"><span class="method-num">${m.num}</span><div class="method-name">${m.name}</div></div>`
+  ).join('');
+
+  const cardsHtml = (vto.cards || []).map(card => {
+    if (card.id === 'core_values') {
+      const items = (card.items || []).map(i => `<li><strong>${i.label}</strong> — ${i.text}</li>`).join('');
+      const sec = card.secondary_title ? `
+        <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);">
+          <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:8px;">${card.secondary_title}</div>
+          <ul class="metric-list">${(card.secondary_items||[]).map(i=>`<li><strong>${i.label}</strong> — ${i.text}</li>`).join('')}</ul>
+        </div>` : '';
+      return `<div class="card">
+        <div class="card-title">${card.title} <span class="badge">${card.badge}</span></div>
+        <div class="card-subtitle">${card.subtitle}</div>
+        <ul class="metric-list">${items}</ul>${sec}</div>`;
+    }
+    if (card.id === 'core_focus') {
+      return `<div class="card">
+        <div class="card-title">${card.title} <span class="badge">${card.badge}</span></div>
+        <div class="card-subtitle">${card.subtitle}</div>
+        <div style="margin-bottom:14px;"><div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">LS Family Vision</div><div style="font-size:16px;font-style:italic;color:var(--ink);font-family:'Playfair Display',serif;">${card.ls_family_vision}</div></div>
+        <div style="margin-bottom:14px;"><div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">LSSR Specific Vision</div><div style="font-size:15px;font-style:italic;color:var(--ink);font-family:'Playfair Display',serif;">${card.lssr_vision}</div></div>
+        <div style="margin-bottom:14px;"><div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">Our Niche</div><div style="font-size:14px;color:var(--ink);">${card.niche}</div></div>
+        <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);"><div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">Proven Process</div><div style="font-size:13px;color:var(--ink);font-weight:600;">${card.process}</div></div>
+      </div>`;
+    }
+    if (card.id === 'ten_year') {
+      const items = (card.items || []).map(i => `<li>${i}</li>`).join('');
+      return `<div class="card">
+        <div class="card-title">${card.title} <span class="badge">${card.badge}</span></div>
+        <div class="card-subtitle">${card.subtitle}</div>
+        <div style="background:var(--section-bg);border-radius:6px;padding:14px 16px;margin-bottom:14px;text-align:center;">
+          <div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:8px;">The Formula</div>
+          <div style="font-size:15px;font-family:'Playfair Display',serif;color:var(--ink);">${card.formula}</div>
+          <div style="font-size:20px;color:var(--gold);margin:6px 0;">${card.formula_result}</div>
+          <div style="font-size:12px;color:var(--muted);">${card.formula_note}</div>
+        </div>
+        <ul class="metric-list">${items}</ul></div>`;
+    }
+    if (card.id === 'marketing') {
+      const pItems = (card.process_items || []).map(i => `<li>${i}</li>`).join('');
+      return `<div class="card">
+        <div class="card-title">${card.title} <span class="badge">${card.badge}</span></div>
+        <div class="card-subtitle">${card.subtitle}</div>
+        <div style="margin-bottom:14px;"><div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">Target Person</div><div style="font-size:14px;">${card.target_person}</div></div>
+        <div><div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-family:'DM Mono',monospace;margin-bottom:6px;">Proven Process</div><ul class="metric-list" style="margin-top:4px;">${pItems}</ul></div>
+      </div>`;
+    }
+    // Generic cards (three_year, one_year, etc.)
+    const isLabeled = card.items && card.items.length && typeof card.items[0] === 'object' && card.items[0].label;
+    const items = isLabeled
+      ? (card.items || []).map(i => `<li><strong>${i.label}:</strong> ${i.text}</li>`).join('')
+      : (card.items || []).map(i => `<li>${i}</li>`).join('');
+    return `<div class="card">
+      <div class="card-title">${card.title} <span class="badge">${card.badge}</span></div>
+      <div class="card-subtitle">${card.subtitle}</div>
+      <ul class="metric-list">${items}</ul></div>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="eyebrow">${vto.eyebrow || 'Tool 01'}</div>
+      <h2>${vto.title}</h2>
+      <p>${vto.description}</p>
+    </div>
+    <div class="methods-grid">${methodsHtml}</div>
+    <div class="grid-2">${cardsHtml}</div>`;
+}
+
+// ── CULTURE ───────────────────────────────────────────────────────────────────
+function renderCulture(culture) {
+  if (!culture) return;
+  const el = document.getElementById('culture');
+
+  const valueCards = (culture.values || []).map(v => {
+    const bg = v.bg_color ? ` style="background:${v.bg_color};"` : '';
+    const behaviors = (v.behaviors || []).map(b => `<li>${b}</li>`).join('');
+    return `<div class="value-card" data-letter="${v.name[0]}"${bg}>
+      <h3>${v.name}</h3>
+      <p>${v.description}</p>
+      <ul class="value-behaviors">${behaviors}</ul>
+    </div>`;
+  }).join('');
+
+  const scoringRows = (culture.scoring || []).map(s =>
+    `<tr><td><strong>${s.score}</strong></td><td>${s.meaning}</td><td>${s.next}</td></tr>`
+  ).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="eyebrow">${culture.eyebrow || 'Tool 02'}</div>
+      <h2>${culture.title}</h2>
+      <p>${culture.description}</p>
+    </div>
+    <div class="highlight-box">
+      <h3>${culture.howto_title}</h3>
+      <p>${culture.howto_text}</p>
+    </div>
+    <div class="grid-2" style="margin-bottom:20px;">${valueCards}</div>
+    <div class="card">
+      <div class="card-title">Culture Scoring Guide <span class="badge">Quarterly Review</span></div>
+      <div class="card-subtitle">Use this in quarterly 1-on-1s and annual reviews with each direct report</div>
+      <table class="scorecard-table">
+        <thead><tr><th>Score</th><th>What It Means</th><th>Next Step</th></tr></thead>
+        <tbody>${scoringRows}</tbody>
+      </table>
+    </div>`;
+}
+
+// ── ACCOUNTABILITY CHART ──────────────────────────────────────────────────────
+function renderAccChart(acc) {
+  if (!acc) return;
+  const el = document.getElementById('acc-chart');
+  const v = acc.visionary || {};
+  const i = acc.integrator || {};
+
+  const vItems = (v.items||[]).map(x=>`<li>${x}</li>`).join('');
+  const iItems = (i.items||[]).map(x=>`<li>${x}</li>`).join('');
+
+  const orgNodes = (acc.directors||[]).map(d =>
+    `<div class="org-node"><div class="org-role">${d.role}</div><div class="org-name">${d.name}</div><div class="org-wg">${d.org_wg}</div></div>`
+  ).join('');
+
+  const dirCards = (acc.directors||[]).map(d => {
+    const items = (d.items||[]).map(x=>`<li>${x}</li>`).join('');
+    return `<div class="card">
+      <div class="card-title">${d.name}</div>
+      <div class="card-subtitle">${d.role} — ${d.subtitle}</div>
+      <ul class="metric-list">${items}</ul>
+    </div>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="eyebrow">Tool 03</div>
+      <h2>Accountability Chart</h2>
+      <p>Not an org chart — a clarity chart. Every seat has one owner, every owner has clear roles and measurables. Right Person · Right Seat.</p>
+    </div>
+    <div class="vi-split">
+      <div class="vi-box vis">
+        <div class="vi-label">Visionary (V)</div>
+        <h3>${v.name} — ${v.role.replace(' (Visionary)','')}</h3>
+        <div style="font-family:'DM Mono',monospace;font-size:9px;color:rgba(201,150,58,0.6);margin-bottom:12px;letter-spacing:1px;">${v.wg}</div>
+        <ul class="vi-list">${vItems}</ul>
+      </div>
+      <div class="vi-box int">
+        <div class="vi-label">Integrator (I)</div>
+        <h3>${i.name} — ${i.role.replace(' (Integrator)','')}</h3>
+        <div style="font-family:'DM Mono',monospace;font-size:9px;color:var(--rust);margin-bottom:12px;letter-spacing:1px;">${i.wg}</div>
+        <ul class="vi-list" style="--gold:#a84c2f;">${iItems}</ul>
+      </div>
+    </div>
+    <div class="org-chart">
+      <div class="org-line" style="height:8px;"></div>
+      <div class="org-row" style="margin-bottom:0;gap:10px;flex-wrap:wrap;">${orgNodes}</div>
+    </div>
+    <div class="grid-3">${dirCards}</div>`;
+}
+
+// ── SCORECARD ─────────────────────────────────────────────────────────────────
+function renderScorecard(data) {
+  const el = document.getElementById('scorecard');
+  const rows = (data.scorecard || []).map(row => {
+    const dotClass = 'status-' + (row.status || 'grey');
+    const cur = row.current || '<span style="color:var(--muted);font-size:11px;">—</span>';
+    const initials = row.owner.split(' ').map(w=>w[0]).join('').substring(0,4);
+    return `<tr>
+      <td><span class="status-dot ${dotClass}"></span></td>
+      <td><strong>${row.metric}</strong>${row.notes?`<br><span style="font-size:11px;color:var(--muted);">${row.notes}</span>`:''}</td>
+      <td><span class="owner-tag">${initials}</span></td>
+      <td style="font-family:'DM Mono',monospace;font-size:12px;">${row.goal}</td>
+      <td class="current-val">${cur}</td>
+      <td style="font-size:12px;color:var(--muted);">${row.notes||''}</td>
+    </tr>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="eyebrow">Tool 04</div>
+      <h2>Leadership Team Scorecard</h2>
+      <p>A weekly pulse on the health of LSSR. Each number has one owner and a weekly goal. Review every Level 10 Meeting. Red for 2+ weeks = Issue to IDS.</p>
+    </div>
+    <div class="highlight-box">
+      <h3>The Rule of the Scorecard</h3>
+      <p>You're not managing people — you're managing numbers. When a number is red, it becomes an Issue to IDS. Update current values in the Google Sheet; this page pulls live data automatically.</p>
+    </div>
+    <div class="card">
+      <div style="float:right;margin-bottom:8px;"><span style="font-family:'DM Mono',monospace;font-size:10px;color:var(--muted);letter-spacing:1px;">Baseline: 550 adults · 100 kids · 245 members · 254 CG members (2024)</span></div>
+      <table class="scorecard-table">
+        <thead><tr><th></th><th>Measurable</th><th>Owner</th><th>Goal</th><th>Current</th><th>Why It Matters</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>`;
+}
+
+// ── ROCKS ─────────────────────────────────────────────────────────────────────
+function renderRocks(data) {
+  const el = document.getElementById('rocks');
+  const q = (data.meta||{}).quarter || 'Q2 2026';
+  const company = (data.rocks||[]).filter(r=>r.type==='company');
+  const indiv   = (data.rocks||[]).filter(r=>r.type!=='company');
+
+  const rockHtml = rocks => rocks.map(r => {
+    const s = r.status||'tbd';
+    const label = {'on-track':'On Track','off-track':'Off Track','complete':'Complete','done':'Done','tbd':'Set Status'}[s]||s;
+    return `<div class="rock-item">
+      <div><strong>Owner: ${r.owner} · ${r.quarter}</strong>${r.title}</div>
+      <span class="rock-status ${s}">${label}</span>
+    </div>`;
+  }).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="eyebrow">Tool 05</div>
+      <h2>Quarterly Rocks</h2>
+      <p>The 3–7 most important things to accomplish this quarter. If everything is a priority, nothing is. Every rock is specific, measurable, and done in 90 days.</p>
+    </div>
+    <div class="highlight-box">
+      <h3>The Rock Formula</h3>
+      <p>"By end of ${q}, [this specific thing] will be done and we'll know it because [here's the measurable proof]." Rocks are reported On Track / Off Track every L10.</p>
+    </div>
+    <div class="grid-2">
+      <div>
+        <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px;">Company Rocks — ${q}</div>
+        ${rockHtml(company)}
+      </div>
+      <div>
+        <div style="font-family:'DM Mono',monospace;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:12px;">Individual Rocks — ${q}</div>
+        ${rockHtml(indiv)}
+      </div>
+    </div>
+    <div class="card" style="margin-top:24px;">
+      <div class="card-title">Rock Review Cadence <span class="badge">Weekly L10</span></div>
+      <div class="card-subtitle">Every person reports every rock every week — On Track or Off Track only</div>
+      <ul class="metric-list">
+        <li><strong>On Track (Green)</strong> — No discussion needed. Move on immediately.</li>
+        <li><strong>Off Track (Red)</strong> — Brief update only. Moves to Issues List for IDS if needed.</li>
+        <li><strong>Completed</strong> — Celebrate briefly. Confirm done with clear evidence.</li>
+        <li>Rocks are never moved or changed mid-quarter except genuine emergency (extremely rare).</li>
+      </ul>
+    </div>`;
+}
+
+// ── TEAM / WG ─────────────────────────────────────────────────────────────────
+function renderTeam(data) {
+  const el = document.getElementById('team');
+  const team = data.team || [];
+
+  const cards = team.map(p => `
+    <div class="wg-card">
+      <div class="wg-card-name">${p.name}</div>
+      <div class="wg-card-role">${p.role}</div>
+      <div class="wg-pairing">${p.pairing}</div>
+      <div style="font-size:12px;color:var(--muted);margin-bottom:10px;font-style:italic;">${p.pairing_desc}</div>
+      <div class="wg-label genius-label">Working Genius</div>
+      <div class="wg-row">${p.genius.map(g=>`<span class="wg-badge genius">${g}</span>`).join('')}</div>
+      <div class="wg-label comp-label" style="margin-top:8px;">Working Competency</div>
+      <div class="wg-row">${p.competency.map(g=>`<span class="wg-badge competency">${g}</span>`).join('')}</div>
+      <div class="wg-label frust-label" style="margin-top:8px;">Working Frustration</div>
+      <div class="wg-row">${p.frustration.map(g=>`<span class="wg-badge frustration">${g}</span>`).join('')}</div>
+    </div>`).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="eyebrow">Tool 06 — Working Genius</div>
+      <h2>Team Map &amp; Working Genius</h2>
+      <p>Understanding how each person on the LSSR staff is wired helps us assign the right work, avoid burning people out, and fill gaps intentionally.</p>
+    </div>
+    <div class="wg-analysis">
+      <h3>Team Analysis: LS South Reno Staff</h3>
+      <div class="wg-analysis-grid">
+        <div class="wg-strength"><div class="wg-analysis-label">Team Strengths</div><ul>
+          <li><strong>Tenacity</strong> — 5 geniuses. This team executes. Gets things done, follows through.</li>
+          <li><strong>Discernment</strong> — 3 geniuses. Strong gut instincts for evaluating ideas and people.</li>
+          <li><strong>Enablement</strong> — 3 geniuses. Several people love supporting others and saying yes.</li>
+        </ul></div>
+        <div class="wg-gap"><div class="wg-analysis-label">Team Gaps to Watch</div><ul>
+          <li><strong>Wonder</strong> — Only 2 geniuses (Adam, Gordon). Team may rush to execution before asking "what if?"</li>
+          <li><strong>Galvanizing</strong> — Only 2 geniuses (Katie, Ryan). Lean hard on these two for inspiring people to act.</li>
+          <li>4 people have Wonder as a frustration — build in structured "What are we missing?" time.</li>
+        </ul></div>
+        <div class="wg-note"><div class="wg-analysis-label">Application Notes</div><ul>
+          <li>Before any new initiative: loop in Adam or Gordon to ask the Wonder questions.</li>
+          <li>For rallying volunteers and congregation: Ryan and Katie should front these moments.</li>
+          <li>Almost no one has Tenacity as a frustration — deploy the team on execution confidently.</li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="wg-team-grid">${cards}</div>
+    <div class="card">
+      <div class="card-title">Working Genius Types Reference <span class="badge">W·I·D·G·E·T</span></div>
+      <div class="card-subtitle">The six types form an interdependent model — each feeds the next in the workflow of any project</div>
+      <table class="scorecard-table">
+        <thead><tr><th>Type</th><th>Letter</th><th>What It Does</th><th>Church Application</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Wonder</strong></td><td><span class="wg-badge genius">W</span></td><td>Identifies the need for improvement or change; asks big questions</td><td>Asking: "Are we reaching the right people? Are our methods still working?"</td></tr>
+          <tr><td><strong>Invention</strong></td><td><span class="wg-badge genius">I</span></td><td>Generates novel ideas and solutions to address identified needs</td><td>Creating new discipleship pathways, series concepts, ministry systems</td></tr>
+          <tr><td><strong>Discernment</strong></td><td><span class="wg-badge competency">D</span></td><td>Assesses the merit and workability of ideas with gut instinct</td><td>Evaluating which new idea to pursue; spotting what's off about a plan</td></tr>
+          <tr><td><strong>Galvanizing</strong></td><td><span class="wg-badge competency">G</span></td><td>Generates enthusiasm and rallies people around the idea</td><td>Preaching vision, recruiting volunteers, launching new initiatives</td></tr>
+          <tr><td><strong>Enablement</strong></td><td><span class="wg-badge frustration">E</span></td><td>Provides unconditional support and assistance to get things started</td><td>Supporting group leaders, saying yes to serving needs, pastoral care</td></tr>
+          <tr><td><strong>Tenacity</strong></td><td><span class="wg-badge frustration">T</span></td><td>Commits to ensuring the project gets completed and results achieved</td><td>Executing the Sunday run-of-show, following up on every guest, closing the loop</td></tr>
+        </tbody>
+      </table>
+    </div>`;
+}
+
+// ── MEETINGS ──────────────────────────────────────────────────────────────────
+function renderMeetings(data) {
+  const el = document.getElementById('meetings');
+  const meetings = data.meetings || [];
+  const addons = data.meetings_addons || [];
+
+  const cards = meetings.map(m => {
+    const agenda = (m.agenda||[]).map(a =>
+      `<div class="agenda-item"><div class="agenda-time">${a.time}</div><div>${a.item}</div></div>`
+    ).join('');
+    return `<div class="meeting-card"><h3>${m.title}</h3><div class="freq">${m.freq}</div>${agenda}</div>`;
+  }).join('');
+
+  const addonItems = addons.map(a => `<li><strong>${a.label}</strong> ${a.text}</li>`).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="eyebrow">Tool 07</div>
+      <h2>Meeting Pulse</h2>
+      <p>EOS replaces random meetings with a predictable, productive rhythm. Every meeting has a clear purpose, agenda, and time limit. Stop having meetings about meetings.</p>
+    </div>
+    <div class="grid-2">${cards}</div>
+    <div class="card" style="margin-top:20px;">
+      <div class="card-title">LS-Specific Meeting Add-Ons <span class="badge">Church Context</span></div>
+      <div class="card-subtitle">EOS doesn't replace these — it runs alongside them</div>
+      <ul class="metric-list">${addonItems}</ul>
+    </div>`;
+}
+
+// ── IDS ───────────────────────────────────────────────────────────────────────
+function renderIDS(data) {
+  const el = document.getElementById('ids');
+  const ids = data.ids || {};
+  const issues = (data.issues||[]).filter(i=>i.status==='open'||!i.status);
+
+  const issueRows = issues.map(i =>
+    `<tr><td>${i.issue}</td><td><span class="owner-tag">${i.addedBy}</span></td><td><span class="priority ${i.priority}">${i.priority}</span></td></tr>`
+  ).join('');
+
+  const steps = (ids.steps||[]).map(s =>
+    `<li><strong>${s.label}</strong> — ${s.text}</li>`
+  ).join('');
+
+  const notes = (ids.culture_notes||[]).map(n=>`<li>${n}</li>`).join('');
+  const esc   = (ids.escalation||[]).map(e=>`<li>${e}</li>`).join('');
+
+  el.innerHTML = `
+    <div class="section-header">
+      <div class="eyebrow">${ids.eyebrow||'Tool 08'}</div>
+      <h2>${ids.title||'Issues List & IDS Process'}</h2>
+      <p>${ids.description||''}</p>
+    </div>
+    <div class="highlight-box">
+      <h3>${ids.rule_title||'The IDS Rule'}</h3>
+      <p>${ids.rule_text||''}</p>
+    </div>
+    <div class="grid-2">
+      <div>
+        <div class="card" style="margin-bottom:16px;">
+          <div class="card-title">Current Issues List <span class="badge">Live</span></div>
+          <div class="card-subtitle">Add issues in the Google Sheet — this list updates automatically</div>
+          <table class="scorecard-table">
+            <thead><tr><th>Issue</th><th>Added By</th><th>Priority</th></tr></thead>
+            <tbody>${issueRows}</tbody>
+          </table>
+        </div>
+        <div class="ids-box"><h4>The 3-Step IDS Process</h4><ul>${steps}</ul></div>
+      </div>
+      <div>
+        <div class="ids-box"><h4>LS-Specific IDS Culture Notes</h4><ul>${notes}</ul></div>
+        <div class="card">
+          <div class="card-title">IDS to Rock Escalation <span class="badge">Rule of 3</span></div>
+          <div class="card-subtitle">When an issue keeps coming back, it needs a Rock, not just a To-Do</div>
+          <ul class="metric-list">${esc}</ul>
+        </div>
+      </div>
+    </div>`;
+}
+
+// ── MAIN RENDER ───────────────────────────────────────────────────────────────
+function renderAll(data) {
+  renderHeader(data);
+  buildNav(data.tabs || [
+    { id:'vto', label:'V/TO', visible:true },
+    { id:'culture', label:'Culture', visible:true },
+    { id:'acc-chart', label:'Acc. Chart', visible:true },
+    { id:'scorecard', label:'Scorecard', visible:true },
+    { id:'rocks', label:'Rocks', visible:true },
+    { id:'team', label:'Team / WG', visible:true },
+    { id:'meetings', label:'Meeting Pulse', visible:true },
+    { id:'ids', label:'IDS / Issues', visible:true }
+  ]);
+  renderVTO(data.vto);
+  renderCulture(data.culture);
+  renderAccChart(data.acc_chart);
+  renderScorecard(data);
+  renderRocks(data);
+  renderTeam(data);
+  renderMeetings(data);
+  renderIDS(data);
+}
+
+// ── DATA LOADING ──────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    if (res.ok) {
+      const liveData = await res.json();
+      renderAll(liveData);
+      document.getElementById('live-dot').classList.add('green');
+      document.getElementById('data-source-label').textContent = 'live data';
+      return;
+    }
+  } catch(e) {
+    console.warn('Could not fetch live data:', e.message);
+  }
+  document.getElementById('data-source-label').textContent = 'offline — no data loaded';
+}
+
 loadData();
 </script>
 </body>
