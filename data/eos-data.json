@@ -1,48 +1,48 @@
 {
   "meta": {
-    "quarter": "Q2 2026",
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-06-02",
+    "quarter": "Q2 2026"
   },
   "scorecard": [
     {
-      "metric": "AWA — Adults (Weekend Attendance)",
+      "metric": "Weekend Attendance (Adults)",
       "owner": "Ryan Griffin",
       "goal": "900+",
       "current": "",
       "status": "grey",
-      "notes": "Current: 825"
+      "notes": "Current: 800 (Jan 2026)"
     },
     {
-      "metric": "AWA — Stepping Stones (Kids)",
+      "metric": "Stepping Stones (Kids)",
       "owner": "Geoffrey Caliger",
       "goal": "200+",
       "current": "",
       "status": "grey",
-      "notes": "Current: 120"
+      "notes": "Current: 130 (Jan 2026)"
     },
     {
-      "metric": "First-Time Guests",
+      "metric": "All-In Giving YTD vs. Goal",
       "owner": "Brad Borowski",
-      "goal": "[set goal]",
+      "goal": "4250000",
       "current": "",
       "status": "grey",
       "notes": "Track in Planning Center"
     },
     {
-      "metric": "Guest Follow-Up Rate (within 48 hrs)",
-      "owner": "Adam Carp",
-      "goal": "100%",
-      "current": "",
-      "status": "grey",
-      "notes": "Critical front-door metric"
-    },
-    {
       "metric": "Active Church Members",
-      "owner": "Rachel Primus",
+      "owner": "Brad Borowski",
       "goal": "462+",
       "current": "",
       "status": "grey",
       "notes": "Current: 362 (Jan 2026); goal 75% active in serving/giving/group"
+    },
+    {
+      "metric": "People Serving (Total)",
+      "owner": "Brad Borowski",
+      "goal": "400+",
+      "current": "",
+      "status": "grey",
+      "notes": "Current: 298 people, 60% of members (Jan 2026)"
     },
     {
       "metric": "Community Groups Active",
@@ -77,12 +77,12 @@
       "notes": "17 new CG leaders launched in 2025"
     },
     {
-      "metric": "People Serving (Total)",
-      "owner": "Brad Borowski",
-      "goal": "325+",
+      "metric": "Stepping Stones Volunteers",
+      "owner": "Geoffrey Caliger",
+      "goal": "150",
       "current": "",
       "status": "grey",
-      "notes": "Current: 254 people, 60% of members (Jan 2026)"
+      "notes": ""
     },
     {
       "metric": "Stepping Stones Vol. Fill Rate",
@@ -95,15 +95,15 @@
     {
       "metric": "All-In Giving YTD vs. $3,675,000 Goal",
       "owner": "Rachel Primus",
-      "goal": "≥ Pace",
+      "goal": "? Pace",
       "current": "",
       "status": "grey",
-      "notes": "All-In 2-year campaign goal"
+      "notes": "2-year All-In campaign"
     },
     {
       "metric": "Weekly Giving vs. Budget",
       "owner": "Rachel Primus",
-      "goal": "≥ Budget pace",
+      "goal": "? Budget pace",
       "current": "",
       "status": "grey",
       "notes": ""
@@ -111,18 +111,18 @@
     {
       "metric": "Sunday Production Issues",
       "owner": "Gordon Fava",
-      "goal": "0",
+      "goal": "",
       "current": "",
       "status": "grey",
-      "notes": "Any tech/production fail"
+      "notes": "Any tech/production fail that affects the service"
     },
     {
       "metric": "Weekly Email Open Rate",
       "owner": "John Conelea",
-      "goal": "≥ 30%",
+      "goal": "? 30%",
       "current": "",
       "status": "grey",
-      "notes": ""
+      "notes": "Industry avg ~22%; 30%+ is healthy for church email"
     },
     {
       "metric": "Social Media Reach (Weekly)",
@@ -138,7 +138,7 @@
       "goal": "65+",
       "current": "",
       "status": "grey",
-      "notes": "Current: ~50/week; 25%+ YOY growth"
+      "notes": "Current: ~50/week (Jan 2026)"
     },
     {
       "metric": "Baptisms (YTD)",
@@ -154,7 +154,7 @@
       "goal": "25",
       "current": "",
       "status": "grey",
-      "notes": "18 grads in 2025"
+      "notes": "18 grads in 2025; goal 25 new grads in 2026"
     },
     {
       "metric": "Staff 1-on-1 Completion Rate",
@@ -183,7 +183,7 @@
       "notes": ""
     },
     {
-      "title": "Discipleship Pathway: Guest → Member → Leader → Missionary fully documented with clear criteria",
+      "title": "Discipleship Pathway: Guest ? Member ? Leader ? Missionary fully documented with clear criteria",
       "owner": "Adam Carp",
       "quarter": "Q2 2026",
       "status": "tbd",
@@ -241,13 +241,13 @@
   ],
   "issues": [
     {
-      "issue": "Two Student Ministry Director titles — role clarity needed between Isaac and Katie",
+      "issue": "Two Student Ministry Director titles ? role clarity needed between Isaac and Katie",
       "addedBy": "Brad",
       "priority": "high",
       "status": "open"
     },
     {
-      "issue": "Building Search has no clear week-to-week owner or defined decision framework — risk of drift",
+      "issue": "Building Search",
       "addedBy": "Brad",
       "priority": "high",
       "status": "open"
@@ -259,25 +259,25 @@
       "status": "open"
     },
     {
-      "issue": "Creative asset lead times compressed — info from pastoral team often arrives too late",
+      "issue": "Creative asset lead times compressed ? info from pastoral team often arrives too late",
       "addedBy": "John Conelea",
       "priority": "med",
       "status": "open"
     },
     {
-      "issue": "CG attendance rate at 50% vs 75%+ goal — engagement strategy needed",
+      "issue": "CG attendance rate at 50% vs 75%+ goal ? engagement strategy needed",
       "addedBy": "Adam Carp",
       "priority": "med",
       "status": "open"
     },
     {
-      "issue": "No dedicated Missions Team Leader identified — missions momentum at risk",
+      "issue": "No dedicated Missions Team Leader identified ? missions momentum at risk",
       "addedBy": "Ryan",
       "priority": "med",
       "status": "open"
     },
     {
-      "issue": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into L10",
+      "issue": "Team Wonder/Galvanizing gap ? build structured What-are-we-missing time into L10",
       "addedBy": "Brad",
       "priority": "low",
       "status": "open"
