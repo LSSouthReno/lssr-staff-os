@@ -66,9 +66,301 @@
     }
   ],
   "header": null,
-  "vto": null,
-  "culture": null,
-  "acc_chart": null,
+  "vto": {
+    "title": "Vision / Traction Organizer",
+    "description": "The single-page document that aligns every member of the LS South Reno staff around where we're going and how we'll get there. Review this together every quarter.",
+    "ministry_methods": [
+      {
+        "num": "01",
+        "name": "Membership"
+      },
+      {
+        "num": "02",
+        "name": "Community Groups"
+      },
+      {
+        "num": "03",
+        "name": "Leadership Development"
+      },
+      {
+        "num": "04",
+        "name": "Local & Global Missions"
+      },
+      {
+        "num": "05",
+        "name": "Sunday Gatherings"
+      }
+    ],
+    "cards": {
+      "core_values": {
+        "title": "Core Values",
+        "badge": "Staff Culture",
+        "subtitle": "The behaviors we hire, fire, review, and reward by. These define who we are.",
+        "items": [
+          "Humble — Takes Jesus seriously and not themselves",
+          "Hungry — Internally motivated to excellence, drive, and execution",
+          "Happy — Fueled by the joy of Jesus, ready to bring that joy to others",
+          "Honest — Talks straight and leads with authenticity and transparency"
+        ],
+        "secondary_title": "Church Culture Guide",
+        "secondary_items": [
+          "Authentic Community — We do life together, not just attend church",
+          "Pursuit of God — We are a people hungry for Jesus, not just religion",
+          "Faith that Cares — We love our city and world with action, not just words"
+        ]
+      },
+      "core_focus": {
+        "title": "Core Focus",
+        "badge": "Purpose",
+        "subtitle": "Our why and our niche — what LSSR uniquely does in South Reno.",
+        "ls_family_vision": "Helping Everyone Find Everything in Jesus",
+        "lssr_vision": "Establish a Permanent Hub of Gospel Purpose in South Reno",
+        "niche": "A beacon of the gospel and a hub of Jesus' mission — raising, training, teaching, and sending disciples who make disciples in South Reno and to the ends of the earth.",
+        "process": "Guest to Member to Leader to Missionary"
+      },
+      "ten_year": {
+        "title": "10-Year Target",
+        "badge": "BHAG",
+        "subtitle": "Big. Hairy. Audacious. The goal that will require God to pull off.",
+        "formula": "Baptize 10% of avg attendance every year for 10 years",
+        "formula_result": "= South Reno Changed Forever",
+        "formula_note": "Studies show a community shifts when ~15% are reached. At 50k residents and current trajectory, consistent 10% annual baptism rate gets us there.",
+        "items": [
+          "A permanent owned facility — hub of gospel mission in South Reno",
+          "1,500+ weekly attendance; 75%+ in a group, giving, and serving",
+          "Church planting actively multiplying — beginning with a new church planter",
+          "Living Stones Family Network thriving across the Mountain West",
+          "Praxis Seminary raising up the next generation of gospel leaders"
+        ]
+      },
+      "marketing": {
+        "title": "Target Audience",
+        "badge": "Who We Reach",
+        "subtitle": "Who is the person LSSR is uniquely positioned to reach?",
+        "target_person": "The spiritually curious, unchurched, or de-churched adult in South Reno — who may be open to Jesus but skeptical of organized religion or has been hurt by the church.",
+        "process_items": [
+          "Experience a Sunday Gathering",
+          "Connect in a Community Group",
+          "Become a Family Member",
+          "Discover & Deploy in a Serving Team or Leadership Role",
+          "Multiply - own a mission (local, global, or plant a group)"
+        ]
+      },
+      "three_year": {
+        "title": "3-Year Picture",
+        "badge": "2028",
+        "subtitle": "What does LSSR look like in 3 years — vivid and measurable?",
+        "items": [
+          "In a permanent owned facility — construction complete or breaking ground",
+          "1,000+ adults and 200+ kids in weekly Sunday Gatherings",
+          "600+ active church members, 75%+ active in serving/giving/group",
+          "70+ Community Groups, 700+ members, 75%+ attendance rate",
+          "400+ volunteers serving in active roles",
+          "New church planter identified, funded, and in training",
+          "Praxis Seminary and LS Family Network fully established",
+          "Stepping Stones and Student Ministry each with 200+ participants",
+          "Annual baptisms consistently at 10%+ of avg attendance"
+        ]
+      },
+      "one_year": {
+        "title": "1-Year Plan",
+        "badge": "2026",
+        "subtitle": "The most important things to accomplish this year — specific and owned.",
+        "items": [
+          "Sunday Gatherings: 900 adults + 200 kids in new building (1,100 total)",
+          "Membership: 462 members, 75% active in serving/giving/group (from 362, 60%)",
+          "Community Groups: 50 groups, 500 members, 75% attendance (from 33/387/50%)",
+          "Serving: 325 people serving, 75% of members (from 254, 60%)",
+          "Generosity: Hit All-In goal of $8,500,000; 50 new commitments in April",
+          "Leadership Dev: 25 Leader Launch grads, 2+ new EITs, 10 new deacons",
+          "Church Planting: Begin seeking and vetting a new church planter",
+          "EOS: L10s running in all departments, scorecard reviewed weekly",
+          "Building: 3 viable sites identified, financial model presented to Elders"
+        ]
+      }
+    }
+  },
+  "culture": {
+    "howto_title": "How to Use the Culture Guide",
+    "howto_text": "In every quarterly 1-on-1 and annual review, score each staff member on all four values using a 1-5 scale. A Right Person lives these values naturally. A Right Seat question is separate — someone can be a great fit to our culture but wrong for the role. Both matter.",
+    "values": [
+      {
+        "name": "Humble",
+        "description": "Humility is the foundation. It's not thinking less of yourself — it's thinking of yourself less. We take Jesus seriously and not ourselves.",
+        "bg_color": "",
+        "behaviors": [
+          "Gives credit freely; takes blame personally",
+          "Asks for help without ego; actively seeks feedback",
+          "Serves outside their job description without complaint",
+          "Deflects praise toward the team and toward God",
+          "Listens more than they talk; curious, not defensive",
+          "Does not hoard information, decisions, or control"
+        ]
+      },
+      {
+        "name": "Hungry",
+        "description": "Hungry people are self-motivated. They pursue excellence because they love Jesus and love the mission.",
+        "bg_color": "#3a2a10",
+        "behaviors": [
+          "Pursues personal spiritual formation proactively",
+          "Reads, learns, and brings new ideas without being asked",
+          "Sets goals beyond what's required; moves the ball",
+          "Champions improvement and resists we've always done it this way",
+          "Takes on extra responsibility when the mission requires it",
+          "Execution-oriented — follows through without reminders"
+        ]
+      },
+      {
+        "name": "Happy",
+        "description": "Happy means we know who we are in Christ, why we're here, and find genuine joy in the work — even the hard parts.",
+        "bg_color": "#2a3a28",
+        "behaviors": [
+          "Brings energy to the team, not drama",
+          "Practices personal disciplines that sustain health (Sabbath, prayer, margin)",
+          "Celebrates wins — big and small — genuinely and publicly",
+          "Treats volunteers and guests with consistent warmth",
+          "Does not complain without offering a solution",
+          "Can receive hard feedback without falling apart"
+        ]
+      },
+      {
+        "name": "Honest",
+        "description": "We say hard things with grace. No triangulating, no gossip, no sweeping things under the rug. Authenticity is not optional.",
+        "bg_color": "#2a1f2a",
+        "behaviors": [
+          "Says what they mean in the room, not after the meeting",
+          "Admits mistakes quickly and owns outcomes fully",
+          "Brings problems forward — not sideways or backwards",
+          "Addresses conflict directly with the person involved",
+          "Keeps confidences; never leaks private matters",
+          "Does not shade truth to protect comfort or avoid awkwardness"
+        ]
+      }
+    ]
+  },
+  "acc_chart": {
+    "visionary": {
+      "name": "Ryan Griffin",
+      "role": "Lead Pastor (Visionary)",
+      "wg": "WG: Galvanizing + Discernment - The Intuitive Activator",
+      "items": [
+        "Casts and protects the vision of LSSR",
+        "Primary preacher and teacher; shapes theological direction",
+        "External relationships: elders, community, partnerships",
+        "Culture and values keeper; spiritual formation champion",
+        "Missions vision and mobilization ownership",
+        "Sabbatical preaching plan — equipping others to preach",
+        "Galvanizes congregation around the 5 Ministry Methods"
+      ]
+    },
+    "integrator": {
+      "name": "Brad Borowski",
+      "role": "Executive Pastor (Integrator)",
+      "wg": "WG: Tenacity + Invention - The Methodical Architect",
+      "items": [
+        "Executes and filters vision into operations and systems",
+        "Owns the Level 10 meeting pulse and EOS implementation",
+        "Manages and develops all department directors",
+        "Budget ownership, financial health, building search",
+        "Holds team accountable to rocks, scorecard, and values",
+        "HR, onboarding, staff development, and culture health",
+        "Removes obstacles; solves what the visionary cannot"
+      ]
+    },
+    "directors": [
+      {
+        "name": "Adam Carp",
+        "role": "Discipleship Pastor",
+        "org_wg": "WG: Invention - Wonder",
+        "subtitle": "Wins when people move from rows to roots to mission",
+        "items": [
+          "Community Group strategy, health, and multiplication",
+          "CG Leader coaching methodology and quarterly bootcamps",
+          "Discipleship pathway design (Guest to Member to Leader to Missionary)",
+          "Leader Launch execution (monthly)",
+          "Membership and Starting Point class oversight"
+        ]
+      },
+      {
+        "name": "Gordon Fava",
+        "role": "Worship Director",
+        "org_wg": "WG: Wonder - Tenacity",
+        "subtitle": "Wins when Sunday is an encounter, not just a concert",
+        "items": [
+          "Weekly liturgy planning under Lead Pastor oversight",
+          "Worship team recruiting, leading, and developing",
+          "Tech team: Sound, Media, lighting - startup to shutdown",
+          "Music catalog process and song selection",
+          "Pre-gathering briefings with Worship, Tech, + Presiding Teams"
+        ]
+      },
+      {
+        "name": "John Conelea",
+        "role": "Creative Director",
+        "org_wg": "WG: Tenacity - Invention",
+        "subtitle": "Wins when every touchpoint reflects the mission clearly and beautifully",
+        "items": [
+          "Sermon series graphics, bumper videos, event graphics",
+          "Church app, website, and social media content",
+          "Weekly email graphics monthly First-to-Know video, sermon clips",
+          "Environmental design: lobby, stage, signage, kids spaces",
+          "Testimony and promo video production"
+        ]
+      },
+      {
+        "name": "Rachel Primus",
+        "role": "Administrative Director",
+        "org_wg": "WG: Enablement - Tenacity",
+        "subtitle": "Wins when the machine runs clean and the team never hits a wall",
+        "items": [
+          "Financial organization, deposits, donation management",
+          "Email & Leader Communication & Coordination",
+          "Planning Center data accuracy and database health",
+          "Vendor management and facilities coordination",
+          "Office & Staff Support"
+        ]
+      },
+      {
+        "name": "Deana Griffin",
+        "role": "SS Curriculum Director",
+        "org_wg": "WG: Discernment - Wonder",
+        "subtitle": "Wins when every kid encounters Jesus through great teaching",
+        "items": [
+          "Create curriculum that teaches children Bible truths pointing to Jesus",
+          "Resource classroom teachers with materials and activity instructions",
+          "Set up curriculum documents and videos ready for each Sunday",
+          "Ensure snacks stocked, rooms clean and classroom-ready",
+          "Evaluate and implement approved improvements to curriculum"
+        ]
+      },
+      {
+        "name": "Isaac Griffin / Katie Thompson",
+        "role": "Student Ministry",
+        "org_wg": "WG: Enablement - Tenacity",
+        "subtitle": "Wins when LS Students grows 25%+ YOY and students feel known",
+        "items": [
+          "Sunday LS Students services and environments",
+          "Student team scheduling, training, and leadership development",
+          "Parent communication and student planning calendars",
+          "Summer camp planning, registration, and logistics",
+          "Student events, parties, and fundraisers"
+        ]
+      },
+      {
+        "name": "Geoffrey Caliger",
+        "role": "SS Staffing Director",
+        "org_wg": "WG: Tenacity - Wonder",
+        "subtitle": "SS Staffing Director & Pastoral Support — Wins when every Sunday slot is covered with trained, joyful volunteers",
+        "items": [
+          "Volunteer recruiting and scheduling (target: 8-12 weeks out)",
+          "Teacher training: onboarding and ongoing",
+          "Fill rate for declines and last-minute cancellations",
+          "Evaluate and implement improvements to volunteer systems",
+          "Weekly Email Communication to Church"
+        ]
+      }
+    ]
+  },
   "scorecard": [
     {
       "metric": "Weekend Attendance (Adults)",
