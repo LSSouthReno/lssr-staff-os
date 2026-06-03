@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-02",
+    "lastUpdated": "2026-06-03",
     "quarter": "Q2 2026"
   },
   "scorecard": [
@@ -16,7 +16,7 @@
       "metric": "Stepping Stones (Kids)",
       "owner": "Geoffrey Caliger",
       "goal": "200+",
-      "current": "",
+      "current": "36",
       "status": "grey",
       "notes": "Current: 130 (Jan 2026)"
     },
