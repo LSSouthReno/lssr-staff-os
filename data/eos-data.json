@@ -3,6 +3,72 @@
     "lastUpdated": "2026-06-03",
     "quarter": "Q2 2026"
   },
+  "tabs": [
+    {
+      "id": "sp-snapshot",
+      "label": "Snapshot",
+      "visible": true
+    },
+    {
+      "id": "sp-vto",
+      "label": "V/TO",
+      "visible": true
+    },
+    {
+      "id": "sp-vot",
+      "label": "Culture",
+      "visible": true
+    },
+    {
+      "id": "sp-acc-chart",
+      "label": "Acc Chart",
+      "visible": true
+    },
+    {
+      "id": "sp-scorecard",
+      "label": "Scorecard",
+      "visible": true
+    },
+    {
+      "id": "sp-vol-leads",
+      "label": "Vol Leads",
+      "visible": false
+    },
+    {
+      "id": "sp-funnel",
+      "label": "Funnel",
+      "visible": true
+    },
+    {
+      "id": "sp-rocks",
+      "label": "Rocks",
+      "visible": true
+    },
+    {
+      "id": "sp-team",
+      "label": "Team/WG",
+      "visible": true
+    },
+    {
+      "id": "sp-meetings",
+      "label": "Meeting Pulse",
+      "visible": true
+    },
+    {
+      "id": "sp-l10",
+      "label": "L10 Feed",
+      "visible": true
+    },
+    {
+      "id": "sp-ids",
+      "label": "IDS",
+      "visible": true
+    }
+  ],
+  "header": null,
+  "vto": null,
+  "culture": null,
+  "acc_chart": null,
   "scorecard": [
     {
       "metric": "Weekend Attendance (Adults)",
@@ -119,7 +185,7 @@
     {
       "metric": "Weekly Email Open Rate",
       "owner": "Geoffrey Caliger",
-      "goal": "? 50%",
+      "goal": "≥ 50%",
       "current": "",
       "status": "grey",
       "notes": "Industry avg ~22%; 30%+ is healthy for church email"
@@ -179,93 +245,82 @@
       "owner": "Brad Borowski",
       "quarter": "Q3 2026",
       "status": "tbd",
-      "type": "company",
-      "notes": ""
+      "type": "company"
     },
     {
       "title": "Building Search: 1 Viable option Identified and Timeline Produced",
       "owner": "Brad Borowski",
       "quarter": "Q3 2026",
       "status": "on-track",
-      "type": "company",
-      "notes": ""
+      "type": "company"
     },
     {
-      "title": "Discipleship Pathway: Guest ? Member ? Leader ? Missionary fully documented with clear criteria",
+      "title": "Discipleship Pathway: Guest → Member → Leader → Missionary fully documented with clear criteria",
       "owner": "Adam Carp",
       "quarter": "Q3 2026",
       "status": "tbd",
-      "type": "company",
-      "notes": ""
+      "type": "company"
     },
     {
       "title": "Creative Calendar: All Sunday assets delivered 1 week in advance with zero last-minute requests",
       "owner": "John Conelea",
       "quarter": "Q3 2026",
       "status": "on-track",
-      "type": "company",
-      "notes": ""
+      "type": "company"
     },
     {
       "title": "Stepping Stones: 150 trained volunteers in active rotation; all slots covered 8+ weeks out",
       "owner": "Geoffrey Caliger",
       "quarter": "Q3 2026",
       "status": "on-track",
-      "type": "individual",
-      "notes": ""
+      "type": "individual"
     },
     {
       "title": "Music Catalog: Process documented; 3 stale songs removed and 3 new songs submitted to Ryan",
       "owner": "Gordon Fava",
       "quarter": "Q3 2026",
       "status": "on-track",
-      "type": "individual",
-      "notes": ""
+      "type": "individual"
     },
     {
       "title": "Student Summer Camp: Fully planned, promoted, and registration open by June 1",
       "owner": "Katie Thompson & Isaac Griffin",
       "quarter": "Q3 2026",
       "status": "on-track",
-      "type": "individual",
-      "notes": ""
+      "type": "individual"
     },
     {
       "title": "Church Dashboard (create ownership)",
       "owner": "Brad Borowski",
       "quarter": "Q3 2026",
       "status": "on-track",
-      "type": "individual",
-      "notes": ""
+      "type": "individual"
     },
     {
       "title": "CG Growth: 5 new community groups launched with trained leaders in place (toward 50-group goal)",
       "owner": "Adam Carp",
       "quarter": "Q3 2026",
       "status": "on-track",
-      "type": "individual",
-      "notes": ""
+      "type": "individual"
     },
     {
       "title": "Preaching Cohort for Elders Restarted",
       "owner": "Ryan Griffin",
       "quarter": "Q3 2026",
       "status": "tbd",
-      "type": "individual",
-      "notes": ""
+      "type": "individual"
     },
     {
       "title": "Stepping Stones Daycare Ready to Launch",
       "owner": "Geoffrey Caliger",
       "quarter": "Q3 2026",
       "status": "tbd",
-      "type": "individual",
-      "notes": ""
+      "type": "individual"
     }
   ],
   "issues": [
     {
-      "issue": "Two Student Ministry Director titles ? role clarity needed between Isaac and Katie",
+      "issue": "Two Student Ministry Director titles — role clarity needed between Isaac and Katie",
       "addedBy": "Brad",
       "priority": "high",
       "status": "open"
@@ -283,19 +338,19 @@
       "status": "open"
     },
     {
-      "issue": "Creative asset lead times compressed ? info from pastoral team often arrives too late",
+      "issue": "Creative asset lead times compressed — info from pastoral team often arrives too late",
       "addedBy": "John Conelea",
       "priority": "med",
       "status": "open"
     },
     {
-      "issue": "CG attendance rate at 50% vs 75%+ goal ? engagement strategy needed",
+      "issue": "CG attendance rate at 50% vs 75%+ goal — engagement strategy needed",
       "addedBy": "Adam Carp",
       "priority": "med",
       "status": "open"
     },
     {
-      "issue": "Team Wonder/Galvanizing gap ? build structured What-are-we-missing time into Weekly/Quarterly Meetings",
+      "issue": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into Weekly/Quarterly Meetings",
       "addedBy": "Brad",
       "priority": "low",
       "status": "open"
