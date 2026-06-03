@@ -29,6 +29,14 @@
       "notes": "Track in Planning Center"
     },
     {
+      "metric": "All-In Midpoint",
+      "owner": "",
+      "goal": "",
+      "current": "",
+      "status": "",
+      "notes": ""
+    },
+    {
       "metric": "Active Church Members",
       "owner": "Brad Borowski",
       "goal": "462+",
@@ -56,7 +64,7 @@
       "metric": "Community Group Members (Active)",
       "owner": "Adam Carp",
       "goal": "500+",
-      "current": "454",
+      "current": "456",
       "status": "grey",
       "notes": "Current: 387 members (Jan 2026)"
     },
