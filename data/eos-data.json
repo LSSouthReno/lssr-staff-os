@@ -25,28 +25,28 @@
       "visible": true
     },
     {
+      "id": "sp-team",
+      "label": "Team Genius",
+      "visible": true
+    },
+    {
       "id": "sp-scorecard",
       "label": "Scorecard",
       "visible": true
     },
     {
-      "id": "sp-vol-leads",
-      "label": "Vol Leads",
-      "visible": false
-    },
-    {
-      "id": "sp-funnel",
-      "label": "Funnel",
+      "id": "sp-ids",
+      "label": "Rocks",
       "visible": true
     },
     {
-      "id": "sp-boulders",
+      "id": "sp-rocks",
       "label": "Boulders",
       "visible": true
     },
     {
-      "id": "sp-team",
-      "label": "Team/WG",
+      "id": "sp-l10",
+      "label": "Staff Sync",
       "visible": true
     },
     {
@@ -55,20 +55,20 @@
       "visible": true
     },
     {
-      "id": "sp-l10",
-      "label": "L10 Feed",
-      "visible": true
-    },
-    {
-      "id": "sp-ids",
-      "label": "IDS",
+      "id": "sp-funnel",
+      "label": "Funnel",
       "visible": true
     }
   ],
-  "header": null,
+  "header": {
+    "title": "Running on",
+    "title_highlight": "Traction",
+    "subtitle": "EOS adapted for Living Stones South Reno. Humble - Hungry - Happy - Honest.",
+    "scripture": "The horse is made ready for the day of battle, but the victory belongs to the LORD. - Prov 21:31",
+    "footer": "Living Stones South Reno - Staff Operating System - Humble - Hungry - Happy - Honest",
+    "org_tag": "Living Stones South Reno - Staff Operating System"
+  },
   "vto": {
-    "title": "Vision / Traction Organizer",
-    "description": "The single-page document that aligns every member of the LS South Reno staff around where we're going and how we'll get there. Review this together every quarter.",
     "ministry_methods": [
       {
         "num": "01",
@@ -84,7 +84,7 @@
       },
       {
         "num": "04",
-        "name": "Local & Global Missions"
+        "name": "Local and Global Missions"
       },
       {
         "num": "05",
@@ -93,66 +93,71 @@
     ],
     "cards": {
       "core_values": {
+        "items": [
+          "Humble - Takes Jesus seriously and not themselves",
+          "Hungry - Internally motivated to excellence, drive, and execution",
+          "Happy - Fueled by the joy of Jesus, ready to bring that joy to others",
+          "Honest - Talks straight and leads with authenticity and transparency"
+        ],
+        "secondary_items": [
+          "Authentic Community - We do life together, not just attend church",
+          "Pursuit of God - We are a people hungry for Jesus, not just religion",
+          "Faith that Cares - We love our city and world with action, not just words"
+        ],
+        "process_items": [],
         "title": "Core Values",
         "badge": "Staff Culture",
         "subtitle": "The behaviors we hire, fire, review, and reward by. These define who we are.",
-        "items": [
-          "Humble — Takes Jesus seriously and not themselves",
-          "Hungry — Internally motivated to excellence, drive, and execution",
-          "Happy — Fueled by the joy of Jesus, ready to bring that joy to others",
-          "Honest — Talks straight and leads with authenticity and transparency"
-        ],
-        "secondary_title": "Church Culture Guide",
-        "secondary_items": [
-          "Authentic Community — We do life together, not just attend church",
-          "Pursuit of God — We are a people hungry for Jesus, not just religion",
-          "Faith that Cares — We love our city and world with action, not just words"
-        ]
+        "secondary_title": "Church Culture Guide"
       },
       "core_focus": {
+        "items": [],
+        "secondary_items": [],
+        "process_items": [],
         "title": "Core Focus",
         "badge": "Purpose",
-        "subtitle": "Our why and our niche — what LSSR uniquely does in South Reno.",
+        "subtitle": "Our why and our niche - what LSSR uniquely does in South Reno.",
         "ls_family_vision": "Helping Everyone Find Everything in Jesus",
         "lssr_vision": "Establish a Permanent Hub of Gospel Purpose in South Reno",
-        "niche": "A beacon of the gospel and a hub of Jesus' mission — raising, training, teaching, and sending disciples who make disciples in South Reno and to the ends of the earth.",
+        "niche": "A beacon of the gospel and a hub of Jesus mission - raising, training, teaching, and sending disciples who make disciples in South Reno and to the ends of the earth.",
         "process": "Guest to Member to Leader to Missionary"
       },
       "ten_year": {
+        "items": [
+          "A permanent owned facility - hub of gospel mission in South Reno",
+          "1500+ weekly attendance; 75%+ in a group, giving, and serving",
+          "Church planting actively multiplying - beginning with a new church planter",
+          "Living Stones Family Network thriving across the Mountain West",
+          "Praxis Seminary raising up the next generation of gospel leaders"
+        ],
+        "secondary_items": [],
+        "process_items": [],
         "title": "10-Year Target",
         "badge": "BHAG",
         "subtitle": "Big. Hairy. Audacious. The goal that will require God to pull off.",
         "formula": "Baptize 10% of avg attendance every year for 10 years",
-        "formula_result": "= South Reno Changed Forever",
-        "formula_note": "Studies show a community shifts when ~15% are reached. At 50k residents and current trajectory, consistent 10% annual baptism rate gets us there.",
-        "items": [
-          "A permanent owned facility — hub of gospel mission in South Reno",
-          "1,500+ weekly attendance; 75%+ in a group, giving, and serving",
-          "Church planting actively multiplying — beginning with a new church planter",
-          "Living Stones Family Network thriving across the Mountain West",
-          "Praxis Seminary raising up the next generation of gospel leaders"
-        ]
+        "formula_result": "South Reno Changed Forever",
+        "formula_note": "Studies show a community shifts when 15% are reached. At 50k residents, consistent 10% annual baptism rate gets us there."
       },
       "marketing": {
-        "title": "Target Audience",
-        "badge": "Who We Reach",
-        "subtitle": "Who is the person LSSR is uniquely positioned to reach?",
-        "target_person": "The spiritually curious, unchurched, or de-churched adult in South Reno — who may be open to Jesus but skeptical of organized religion or has been hurt by the church.",
+        "items": [],
+        "secondary_items": [],
         "process_items": [
           "Experience a Sunday Gathering",
           "Connect in a Community Group",
           "Become a Family Member",
-          "Discover & Deploy in a Serving Team or Leadership Role",
+          "Discover and Deploy in a Serving Team or Leadership Role",
           "Multiply - own a mission (local, global, or plant a group)"
-        ]
+        ],
+        "title": "Target Audience",
+        "badge": "Who We Reach",
+        "subtitle": "Who is the person LSSR is uniquely positioned to reach?",
+        "target_person": "The spiritually curious, unchurched, or de-churched adult in South Reno who may be open to Jesus but skeptical of organized religion or has been hurt by the church."
       },
       "three_year": {
-        "title": "3-Year Picture",
-        "badge": "2028",
-        "subtitle": "What does LSSR look like in 3 years — vivid and measurable?",
         "items": [
-          "In a permanent owned facility — construction complete or breaking ground",
-          "1,000+ adults and 200+ kids in weekly Sunday Gatherings",
+          "In a permanent owned facility - construction complete or breaking ground",
+          "1000+ adults and 200+ kids in weekly Sunday Gatherings",
           "600+ active church members, 75%+ active in serving/giving/group",
           "70+ Community Groups, 700+ members, 75%+ attendance rate",
           "400+ volunteers serving in active roles",
@@ -160,33 +165,42 @@
           "Praxis Seminary and LS Family Network fully established",
           "Stepping Stones and Student Ministry each with 200+ participants",
           "Annual baptisms consistently at 10%+ of avg attendance"
-        ]
+        ],
+        "secondary_items": [],
+        "process_items": [],
+        "title": "3-Year Picture",
+        "badge": "2028",
+        "subtitle": "What does LSSR look like in 3 years - vivid and measurable?"
       },
       "one_year": {
-        "title": "1-Year Plan",
-        "badge": "2026",
-        "subtitle": "The most important things to accomplish this year — specific and owned.",
         "items": [
-          "Sunday Gatherings: 900 adults + 200 kids in new building (1,100 total)",
+          "Sunday Gatherings: 900 adults + 200 kids in new building",
           "Membership: 462 members, 75% active in serving/giving/group (from 362, 60%)",
           "Community Groups: 50 groups, 500 members, 75% attendance (from 33/387/50%)",
           "Serving: 325 people serving, 75% of members (from 254, 60%)",
-          "Generosity: Hit All-In goal of $8,500,000; 50 new commitments in April",
+          "Generosity: Hit All-In goal of $8,500,000",
           "Leadership Dev: 25 Leader Launch grads, 2+ new EITs, 10 new deacons",
           "Church Planting: Begin seeking and vetting a new church planter",
           "EOS: L10s running in all departments, scorecard reviewed weekly",
           "Building: 3 viable sites identified, financial model presented to Elders"
-        ]
+        ],
+        "secondary_items": [],
+        "process_items": [],
+        "title": "1-Year Plan",
+        "badge": "2026",
+        "subtitle": "The most important things to accomplish this year - specific and owned."
       }
-    }
+    },
+    "title": "Vision / Traction Organizer",
+    "description": "The single-page document that aligns every member of the LS South Reno staff around where we are going and how we will get there. Review this together every quarter."
   },
   "culture": {
     "howto_title": "How to Use the Culture Guide",
-    "howto_text": "In every quarterly 1-on-1 and annual review, score each staff member on all four values using a 1-5 scale. A Right Person lives these values naturally. A Right Seat question is separate — someone can be a great fit to our culture but wrong for the role. Both matter.",
+    "howto_text": "In every quarterly 1-on-1 and annual review, score each staff member on all four values using a 1-5 scale. Right Person lives these values naturally. Right Seat is separate - both matter.",
     "values": [
       {
         "name": "Humble",
-        "description": "Humility is the foundation. It's not thinking less of yourself — it's thinking of yourself less. We take Jesus seriously and not ourselves.",
+        "description": "Humility is the foundation. Not thinking less of yourself - thinking of yourself less. We take Jesus seriously and not ourselves.",
         "bg_color": "",
         "behaviors": [
           "Gives credit freely; takes blame personally",
@@ -204,20 +218,20 @@
         "behaviors": [
           "Pursues personal spiritual formation proactively",
           "Reads, learns, and brings new ideas without being asked",
-          "Sets goals beyond what's required; moves the ball",
-          "Champions improvement and resists we've always done it this way",
+          "Sets goals beyond what is required; moves the ball",
+          "Champions improvement and resists we have always done it this way",
           "Takes on extra responsibility when the mission requires it",
-          "Execution-oriented — follows through without reminders"
+          "Execution-oriented - follows through without reminders"
         ]
       },
       {
         "name": "Happy",
-        "description": "Happy means we know who we are in Christ, why we're here, and find genuine joy in the work — even the hard parts.",
+        "description": "Happy means we know who we are in Christ, why we are here, and find genuine joy in the work - even the hard parts.",
         "bg_color": "#2a3a28",
         "behaviors": [
           "Brings energy to the team, not drama",
           "Practices personal disciplines that sustain health (Sabbath, prayer, margin)",
-          "Celebrates wins — big and small — genuinely and publicly",
+          "Celebrates wins - big and small - genuinely and publicly",
           "Treats volunteers and guests with consistent warmth",
           "Does not complain without offering a solution",
           "Can receive hard feedback without falling apart"
@@ -225,12 +239,12 @@
       },
       {
         "name": "Honest",
-        "description": "We say hard things with grace. No triangulating, no gossip, no sweeping things under the rug. Authenticity is not optional.",
+        "description": "We say hard things with grace. No triangulating, no gossip, no sweeping things under the rug.",
         "bg_color": "#2a1f2a",
         "behaviors": [
           "Says what they mean in the room, not after the meeting",
           "Admits mistakes quickly and owns outcomes fully",
-          "Brings problems forward — not sideways or backwards",
+          "Brings problems forward - not sideways or backwards",
           "Addresses conflict directly with the person involved",
           "Keeps confidences; never leaks private matters",
           "Does not shade truth to protect comfort or avoid awkwardness"
@@ -243,13 +257,14 @@
       "name": "Ryan Griffin",
       "role": "Lead Pastor (Visionary)",
       "wg": "WG: Galvanizing + Discernment - The Intuitive Activator",
+      "subtitle": "",
+      "org_wg": "WG: Galvanizing + Discernment - The Intuitive Activator",
       "items": [
         "Casts and protects the vision of LSSR",
         "Primary preacher and teacher; shapes theological direction",
         "External relationships: elders, community, partnerships",
         "Culture and values keeper; spiritual formation champion",
         "Missions vision and mobilization ownership",
-        "Sabbatical preaching plan — equipping others to preach",
         "Galvanizes congregation around the 5 Ministry Methods"
       ]
     },
@@ -257,6 +272,8 @@
       "name": "Brad Borowski",
       "role": "Executive Pastor (Integrator)",
       "wg": "WG: Tenacity + Invention - The Methodical Architect",
+      "subtitle": "",
+      "org_wg": "WG: Tenacity + Invention - The Methodical Architect",
       "items": [
         "Executes and filters vision into operations and systems",
         "Owns the Level 10 meeting pulse and EOS implementation",
@@ -271,11 +288,12 @@
       {
         "name": "Adam Carp",
         "role": "Discipleship Pastor",
-        "org_wg": "WG: Invention - Wonder",
+        "wg": "",
         "subtitle": "Wins when people move from rows to roots to mission",
+        "org_wg": "Wins when people move from rows to roots to mission",
         "items": [
           "Community Group strategy, health, and multiplication",
-          "CG Leader coaching methodology and quarterly bootcamps",
+          "CG Leader coaching and quarterly bootcamps",
           "Discipleship pathway design (Guest to Member to Leader to Missionary)",
           "Leader Launch execution (monthly)",
           "Membership and Starting Point class oversight"
@@ -284,25 +302,27 @@
       {
         "name": "Gordon Fava",
         "role": "Worship Director",
-        "org_wg": "WG: Wonder - Tenacity",
+        "wg": "",
         "subtitle": "Wins when Sunday is an encounter, not just a concert",
+        "org_wg": "Wins when Sunday is an encounter, not just a concert",
         "items": [
           "Weekly liturgy planning under Lead Pastor oversight",
           "Worship team recruiting, leading, and developing",
           "Tech team: Sound, Media, lighting - startup to shutdown",
           "Music catalog process and song selection",
-          "Pre-gathering briefings with Worship, Tech, + Presiding Teams"
+          "Pre-gathering briefings with Worship, Tech, and Presiding Teams"
         ]
       },
       {
         "name": "John Conelea",
         "role": "Creative Director",
-        "org_wg": "WG: Tenacity - Invention",
+        "wg": "",
         "subtitle": "Wins when every touchpoint reflects the mission clearly and beautifully",
+        "org_wg": "Wins when every touchpoint reflects the mission clearly and beautifully",
         "items": [
           "Sermon series graphics, bumper videos, event graphics",
           "Church app, website, and social media content",
-          "Weekly email graphics monthly First-to-Know video, sermon clips",
+          "Weekly email graphics, First-to-Know video, sermon clips",
           "Environmental design: lobby, stage, signage, kids spaces",
           "Testimony and promo video production"
         ]
@@ -310,21 +330,23 @@
       {
         "name": "Rachel Primus",
         "role": "Administrative Director",
-        "org_wg": "WG: Enablement - Tenacity",
+        "wg": "",
         "subtitle": "Wins when the machine runs clean and the team never hits a wall",
+        "org_wg": "Wins when the machine runs clean and the team never hits a wall",
         "items": [
           "Financial organization, deposits, donation management",
-          "Email & Leader Communication & Coordination",
+          "Email and Leader Communication and Coordination",
           "Planning Center data accuracy and database health",
           "Vendor management and facilities coordination",
-          "Office & Staff Support"
+          "Office and Staff Support"
         ]
       },
       {
         "name": "Deana Griffin",
         "role": "SS Curriculum Director",
-        "org_wg": "WG: Discernment - Wonder",
+        "wg": "",
         "subtitle": "Wins when every kid encounters Jesus through great teaching",
+        "org_wg": "Wins when every kid encounters Jesus through great teaching",
         "items": [
           "Create curriculum that teaches children Bible truths pointing to Jesus",
           "Resource classroom teachers with materials and activity instructions",
@@ -336,8 +358,9 @@
       {
         "name": "Isaac Griffin / Katie Thompson",
         "role": "Student Ministry",
-        "org_wg": "WG: Enablement - Tenacity",
+        "wg": "",
         "subtitle": "Wins when LS Students grows 25%+ YOY and students feel known",
+        "org_wg": "Wins when LS Students grows 25%+ YOY and students feel known",
         "items": [
           "Sunday LS Students services and environments",
           "Student team scheduling, training, and leadership development",
@@ -348,9 +371,10 @@
       },
       {
         "name": "Geoffrey Caliger",
-        "role": "SS Staffing Director",
-        "org_wg": "WG: Tenacity - Wonder",
-        "subtitle": "SS Staffing Director & Pastoral Support — Wins when every Sunday slot is covered with trained, joyful volunteers",
+        "role": "SS Staffing Director and Pastoral Support",
+        "wg": "",
+        "subtitle": "Wins when every Sunday slot is covered with trained, joyful volunteers",
+        "org_wg": "Wins when every Sunday slot is covered with trained, joyful volunteers",
         "items": [
           "Volunteer recruiting and scheduling (target: 8-12 weeks out)",
           "Teacher training: onboarding and ongoing",
@@ -359,6 +383,185 @@
           "Weekly Email Communication to Church"
         ]
       }
+    ]
+  },
+  "meetings": {
+    "title": "Meeting Pulse",
+    "description": "EOS replaces random meetings with a predictable, productive rhythm. Every meeting has a clear purpose, agenda, and time limit. Stop having meetings about meetings.",
+    "meetings": [
+      {
+        "title": "Level 10 Meeting (L10)",
+        "freq": "Weekly - 90 Minutes - Same Day and Time Every Week",
+        "agenda": [
+          {
+            "time": "5 min",
+            "item": "Segue - one good news personally, one professionally"
+          },
+          {
+            "time": "5 min",
+            "item": "Scorecard review - note any reds, no discussion yet"
+          },
+          {
+            "time": "5 min",
+            "item": "Rock review - each person: On Track or Off Track only"
+          },
+          {
+            "time": "5 min",
+            "item": "Customer / People Headlines - guest or staff issues to surface"
+          },
+          {
+            "time": "5 min",
+            "item": "To-Do list review - check prior weeks 7-day actions"
+          },
+          {
+            "time": "60 min",
+            "item": "IDS - Identify, Discuss, Solve the top 3 issues (prioritized)"
+          },
+          {
+            "time": "5 min",
+            "item": "Conclude - rate the meeting 1-10; recap to-dos"
+          }
+        ]
+      },
+      {
+        "title": "Quarterly Business Owners Meeting (QBOP)",
+        "freq": "Quarterly - Full Day - Off Campus",
+        "agenda": [
+          {
+            "time": "AM",
+            "item": "Review prior quarter - rocks complete? What did we learn?"
+          },
+          {
+            "time": "AM",
+            "item": "Review V/TO - vision still clear and shared? Any updates?"
+          },
+          {
+            "time": "Mid",
+            "item": "People review - right people, right seats? Culture check-in"
+          },
+          {
+            "time": "PM",
+            "item": "IDS biggest issues entering next quarter"
+          },
+          {
+            "time": "PM",
+            "item": "Set rocks for next quarter - company first, then individual"
+          },
+          {
+            "time": "End",
+            "item": "Team health + celebrate wins from the past quarter"
+          }
+        ]
+      },
+      {
+        "title": "Quarterly 1-on-1 (People Chat)",
+        "freq": "Quarterly - 60 Minutes - Brad with each Director",
+        "agenda": [
+          {
+            "time": "10 min",
+            "item": "Personal check-in - life, soul, family, energy"
+          },
+          {
+            "time": "15 min",
+            "item": "Culture review - score each of the 4 values together honestly"
+          },
+          {
+            "time": "15 min",
+            "item": "Rocks and measurables - are they hitting their numbers?"
+          },
+          {
+            "time": "10 min",
+            "item": "Development - what do they want to grow in this next quarter?"
+          },
+          {
+            "time": "10 min",
+            "item": "Forward - what is their rock for next quarter?"
+          }
+        ]
+      },
+      {
+        "title": "Annual Planning (Focus Day)",
+        "freq": "Annually - 2 Days - Visionary-Led Off Campus",
+        "agenda": [
+          {
+            "time": "Day 1",
+            "item": "Review the year - data, stories, wins, misses, surprises"
+          },
+          {
+            "time": "Day 1",
+            "item": "Update V/TO - 10-year target, 3-year picture, 1-year plan"
+          },
+          {
+            "time": "Day 2",
+            "item": "Set Q1 rocks for all seats; budget and calendar alignment"
+          },
+          {
+            "time": "Day 2",
+            "item": "Team health, culture audit, and value renewal"
+          }
+        ]
+      }
+    ],
+    "addons": [
+      {
+        "label": "Weekly Sunday Debrief",
+        "text": "(15 min, same day or Monday) - What happened? What needs to improve next week?"
+      },
+      {
+        "label": "Monthly Liturgy / Creative Sync",
+        "text": "Ryan, Gordon, John, Brad: upcoming series, sermon themes, creative direction"
+      },
+      {
+        "label": "Quarterly Leader Meeting",
+        "text": "CG Leaders, Team Leads, Coaches: vision, training, celebration"
+      },
+      {
+        "label": "Elder / Board Meeting",
+        "text": "Ryan leads; Brad prepares data summary and scorecard"
+      },
+      {
+        "label": "Staff Devotional",
+        "text": "Separate from L10. Keep the soul of the team spiritually fed. Not a business meeting."
+      },
+      {
+        "label": "Monthly SS Team Lead Meeting",
+        "text": "Geoffrey leads; builds ownership and collaboration among volunteer leads"
+      }
+    ]
+  },
+  "ids": {
+    "title": "Issues List and IDS Process",
+    "description": "IDS - Identify, Discuss, Solve - is how you actually fix problems instead of talking around them forever. The Issues List is the shared, visible list of everything getting in the way.",
+    "rule_title": "The IDS Rule",
+    "rule_text": "Whoever identifies an issue owns putting it on the list - not solving it alone. The team solves it together in the L10. Issues are prioritized by impact, not urgency. An issue that recurs 3x becomes a Rock to fix systemically.",
+    "steps": [
+      {
+        "label": "Identify",
+        "text": "State the real issue, not the symptom. Sundays feel rushed means the issue is no documented run-of-show assigned. Be specific."
+      },
+      {
+        "label": "Discuss",
+        "text": "Open the floor until the root issue is truly clear. Do not jump to solutions. Time-boxed to 15 min/issue."
+      },
+      {
+        "label": "Solve",
+        "text": "Create one To-Do: one owner, one due date. Issue is resolved or removed. Done."
+      }
+    ],
+    "culture_notes": [
+      "Name personnel and pastoral issues clearly. Calling it tension does not solve it.",
+      "Issues belong to the team, not the person who raised them. No retaliation culture.",
+      "Never escalate to Ryan what Brad can solve. Never escalate to Brad what a director can solve.",
+      "IDS is not a venting session. Time-box discussion.",
+      "The Stepping Stones transition (post-Feb 2025) created systemic issues - these are Rocks, not just IDS items.",
+      "The Wonder gap means issues may not surface until critical. Build in What are we missing? as a standing L10 prompt."
+    ],
+    "escalation": [
+      "Issue appears in IDS for the 1st time - To-Do with owner + due date",
+      "Issue reappears for 2nd time - escalate priority; examine root cause",
+      "Issue appears for 3rd time - becomes a company Rock next quarter",
+      "Issues involving Right Person / Right Seat - always escalate to Brad for private 1-on-1",
+      "Building / facility issues - Ryan + Brad own together; surface at every QBOP"
     ]
   },
   "scorecard": [
@@ -411,18 +614,10 @@
       "notes": "Current: 298 people, 60% of members (Jan 2026)"
     },
     {
-      "metric": "Community Groups Active",
-      "owner": "Adam Carp",
-      "goal": "50+",
-      "current": "36",
-      "status": "grey",
-      "notes": "Current: 33 groups (Jan 2026)"
-    },
-    {
       "metric": "Community Group Members (Active)",
       "owner": "Adam Carp",
       "goal": "500+",
-      "current": "456",
+      "current": "458",
       "status": "grey",
       "notes": "Current: 387 members (Jan 2026)"
     },
@@ -446,7 +641,7 @@
       "metric": "Stepping Stones Volunteers",
       "owner": "Geoffrey Caliger",
       "goal": "150",
-      "current": "105",
+      "current": "103",
       "status": "grey",
       "notes": ""
     },
@@ -533,10 +728,10 @@
   ],
   "boulders": [
     {
-      "title": "EOS Rhythm Established: Clarity & Accountability",
+      "title": "StaffOS Rhythm Established: Clarity & Accountability",
       "owner": "Brad Borowski",
       "quarter": "Q3 2026",
-      "status": "tbd",
+      "status": "on-track",
       "type": "company"
     },
     {
@@ -608,23 +803,114 @@
       "quarter": "Q3 2026",
       "status": "tbd",
       "type": "individual"
+    },
+    {
+      "title": "Get Live Stream setup",
+      "owner": "Gordon Fava",
+      "quarter": "Q3 2026",
+      "status": "on-track",
+      "type": "individual"
+    },
+    {
+      "title": "CG Attendance Trending toward 75%",
+      "owner": "Adam Carp",
+      "quarter": "Q3 2026",
+      "status": "off-track",
+      "type": "individual"
+    },
+    {
+      "title": "Stepping Stones Team & Leader Development",
+      "owner": "Geoffrey Caliger",
+      "quarter": "Q3 2026",
+      "status": "tbd",
+      "type": "individual"
+    },
+    {
+      "title": "Branding Package Standardized",
+      "owner": "John Conelea",
+      "quarter": "Q3 2026",
+      "status": "tbd",
+      "type": "individual"
+    },
+    {
+      "title": "Facility Maintenance & Cleanliness System Revisited",
+      "owner": "Brad Borowski",
+      "quarter": "Q3 2026",
+      "status": "on-track",
+      "type": "individual"
+    },
+    {
+      "title": "Sunday Team One-Sheet System Implemented & Used",
+      "owner": "Brad Borowski",
+      "quarter": "Q3 2026",
+      "status": "off-track",
+      "type": "individual"
+    },
+    {
+      "title": "Christmas Festival Planning Underway",
+      "owner": "Brad Borowski",
+      "quarter": "Q3 2026",
+      "status": "tbd",
+      "type": "company"
+    },
+    {
+      "title": "Christmas Services Ideated & Creative Planning Solidifed",
+      "owner": "Ryan Griffin",
+      "quarter": "Q3 2026",
+      "status": "on-track",
+      "type": "individual"
+    },
+    {
+      "title": "Students Ministry Leader System Thriving & Team Growing",
+      "owner": "Katie Thompson & Isaac Griffin",
+      "quarter": "Q3 2026",
+      "status": "tbd",
+      "type": "individual"
+    },
+    {
+      "title": "Daycare Launch Plan Prepared",
+      "owner": "Geoffrey Caliger, Brad Borowski",
+      "quarter": "Q3 2026",
+      "status": "on-track",
+      "type": "company"
+    },
+    {
+      "title": "Vision Awareness Revisited",
+      "owner": "Ryan Griffin",
+      "quarter": "Q3 2026",
+      "status": "tbd",
+      "type": "individual"
+    },
+    {
+      "title": "Full Worship Team every Sunday",
+      "owner": "Gordon Fava",
+      "quarter": "Q3 2026",
+      "status": "tbd",
+      "type": "individual"
+    },
+    {
+      "title": "Improve on StaffOS system for LSSR",
+      "owner": "",
+      "quarter": "Q3 2026",
+      "status": "tbd",
+      "type": "individual"
     }
   ],
   "rocks": [
     {
-      "rock": "Two Student Ministry Director titles — role clarity needed between Isaac and Katie",
+      "rock": "Students Leader Schedule System Fixed",
+      "addedBy": "Katie & Isaac",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "rock": "Define Boulders",
       "addedBy": "Brad",
       "priority": "high",
       "status": "open"
     },
     {
-      "rock": "Building Search",
-      "addedBy": "Brad",
-      "priority": "high",
-      "status": "open"
-    },
-    {
-      "rock": "Stepping Stones volunteer numbers still rebuilding post-transition (Feb 2025)",
+      "rock": "Class Organization Recreated",
       "addedBy": "Geoffrey",
       "priority": "high",
       "status": "open"
@@ -636,13 +922,19 @@
       "status": "open"
     },
     {
-      "rock": "CG attendance rate at 50% vs 75%+ goal — engagement strategy needed",
+      "rock": "CG attendance rate at 50% vs 75%+ goal - engagement strategy needed",
       "addedBy": "Adam Carp",
       "priority": "med",
       "status": "open"
     },
     {
       "rock": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into Weekly/Quarterly Meetings",
+      "addedBy": "Brad",
+      "priority": "low",
+      "status": "open"
+    },
+    {
+      "rock": "Stanchions Issue finally solved",
       "addedBy": "Brad",
       "priority": "low",
       "status": "open"
