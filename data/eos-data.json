@@ -534,7 +534,7 @@
     ]
   },
   "ids": {
-    "title": "Issues List and IDS Process",
+    "title": "Rocks List and IDS Process",
     "description": "IDS - Identify, Discuss, Solve - is how you actually fix problems instead of talking around them forever. The Issues List is the shared, visible list of everything getting in the way.",
     "rule_title": "The IDS Rule",
     "rule_text": "Whoever identifies an issue owns putting it on the list - not solving it alone. The team solves it together in the L10. Issues are prioritized by impact, not urgency. An issue that recurs 3x becomes a Rock to fix systemically.",
