@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastUpdated": "2026-06-03",
+    "lastUpdated": "2026-06-04",
     "quarter": "Q2 2026"
   },
   "tabs": [
@@ -279,7 +279,7 @@
         "Owns the Level 10 meeting pulse and EOS implementation",
         "Manages and develops all department directors",
         "Budget ownership, financial health, building search",
-        "Holds team accountable to boulders, scorecard, and values",
+        "Holds team accountable to rocks, scorecard, and values",
         "HR, onboarding, staff development, and culture health",
         "Removes obstacles; solves what the visionary cannot"
       ]
@@ -726,7 +726,7 @@
       "notes": ""
     }
   ],
-  "boulders": [
+  "rocks": [
     {
       "title": "StaffOS Rhythm Established: Clarity & Accountability",
       "owner": "Brad Borowski",
@@ -896,48 +896,48 @@
       "type": "individual"
     }
   ],
-  "rocks": [
+  "issues": [
     {
+      "issue": "Students Leader Schedule System Fixed",
       "addedBy": "Katie & Isaac",
       "priority": "high",
-      "status": "open",
-      "rock": "Students Leader Schedule System Fixed"
+      "status": "open"
     },
     {
+      "issue": "Define Boulders",
       "addedBy": "Brad",
       "priority": "high",
-      "status": "open",
-      "rock": "Define Boulders"
+      "status": "open"
     },
     {
+      "issue": "Class Organization Recreated",
       "addedBy": "Geoffrey",
       "priority": "high",
-      "status": "open",
-      "rock": "Class Organization Recreated"
+      "status": "open"
     },
     {
+      "issue": "Creative asset lead times compressed — info from pastoral team often arrives too late",
       "addedBy": "John Conelea",
       "priority": "med",
-      "status": "open",
-      "rock": "Creative asset lead times compressed — info from pastoral team often arrives too late"
+      "status": "open"
     },
     {
+      "issue": "CG attendance rate at 50% vs 75%+ goal - engagement strategy needed",
       "addedBy": "Adam Carp",
       "priority": "med",
-      "status": "open",
-      "rock": "CG attendance rate at 50% vs 75%+ goal - engagement strategy needed"
+      "status": "open"
     },
     {
+      "issue": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into Weekly/Quarterly Meetings",
       "addedBy": "Brad",
       "priority": "low",
-      "status": "open",
-      "rock": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into Weekly/Quarterly Meetings"
+      "status": "open"
     },
     {
+      "issue": "Stanchions Issue finally solved",
       "addedBy": "Brad",
       "priority": "low",
-      "status": "open",
-      "rock": "Stanchions Issue finally solved"
+      "status": "open"
     }
   ]
 }
