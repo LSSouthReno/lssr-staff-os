@@ -27,7 +27,7 @@
     {
       "id": "sp-team",
       "label": "Team Genius",
-      "visible": true
+      "visible": false
     },
     {
       "id": "sp-scorecard",
