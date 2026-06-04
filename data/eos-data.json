@@ -728,216 +728,54 @@
   ],
   "rocks": [
     {
-      "title": "StaffOS Rhythm Established: Clarity & Accountability",
-      "owner": "Brad Borowski",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "company"
+      "title": "Students Leader Schedule System Fixed",
+      "owner": "Katie & Isaac",
+      "quarter": "high",
+      "status": "open",
+      "type": ""
     },
     {
-      "title": "Building Search: 1 Viable option Identified and Timeline Produced",
-      "owner": "Brad Borowski",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "company"
+      "title": "Define Boulders",
+      "owner": "Brad",
+      "quarter": "high",
+      "status": "open",
+      "type": ""
     },
     {
-      "title": "Discipleship Pathway: Guest → Member → Leader → Missionary fully documented with clear criteria",
-      "owner": "Adam Carp",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "company"
+      "title": "Class Organization Recreated",
+      "owner": "Geoffrey",
+      "quarter": "high",
+      "status": "open",
+      "type": ""
     },
     {
-      "title": "Creative Calendar: All Sunday assets delivered 1 week in advance with zero last-minute requests",
+      "title": "Creative asset lead times compressed — info from pastoral team often arrives too late",
       "owner": "John Conelea",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "company"
+      "quarter": "med",
+      "status": "open",
+      "type": ""
     },
     {
-      "title": "Stepping Stones: 150 trained volunteers in active rotation; all slots covered 8+ weeks out",
-      "owner": "Geoffrey Caliger",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "individual"
-    },
-    {
-      "title": "Music Catalog: Process documented; 3 stale songs removed and 3 new songs submitted to Ryan",
-      "owner": "Gordon Fava",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "individual"
-    },
-    {
-      "title": "Student Summer Camp: Fully planned, promoted, and registration open by June 1",
-      "owner": "Katie Thompson & Isaac Griffin",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "individual"
-    },
-    {
-      "title": "Church Dashboard (create ownership)",
-      "owner": "Brad Borowski",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "individual"
-    },
-    {
-      "title": "CG Growth: 5 new community groups launched with trained leaders in place (toward 50-group goal)",
+      "title": "CG attendance rate at 50% vs 75%+ goal - engagement strategy needed",
       "owner": "Adam Carp",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "individual"
+      "quarter": "med",
+      "status": "open",
+      "type": ""
     },
     {
-      "title": "Preaching Cohort for Elders Restarted",
-      "owner": "Ryan Griffin",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "individual"
+      "title": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into Weekly/Quarterly Meetings",
+      "owner": "Brad",
+      "quarter": "low",
+      "status": "open",
+      "type": ""
     },
     {
-      "title": "Stepping Stones Daycare Ready to Launch",
-      "owner": "Geoffrey Caliger",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "individual"
-    },
-    {
-      "title": "Get Live Stream setup",
-      "owner": "Gordon Fava",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "individual"
-    },
-    {
-      "title": "CG Attendance Trending toward 75%",
-      "owner": "Adam Carp",
-      "quarter": "Q3 2026",
-      "status": "off-track",
-      "type": "individual"
-    },
-    {
-      "title": "Stepping Stones Team & Leader Development",
-      "owner": "Geoffrey Caliger",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "individual"
-    },
-    {
-      "title": "Branding Package Standardized",
-      "owner": "John Conelea",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "individual"
-    },
-    {
-      "title": "Facility Maintenance & Cleanliness System Revisited",
-      "owner": "Brad Borowski",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "individual"
-    },
-    {
-      "title": "Sunday Team One-Sheet System Implemented & Used",
-      "owner": "Brad Borowski",
-      "quarter": "Q3 2026",
-      "status": "off-track",
-      "type": "individual"
-    },
-    {
-      "title": "Christmas Festival Planning Underway",
-      "owner": "Brad Borowski",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "company"
-    },
-    {
-      "title": "Christmas Services Ideated & Creative Planning Solidifed",
-      "owner": "Ryan Griffin",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "individual"
-    },
-    {
-      "title": "Students Ministry Leader System Thriving & Team Growing",
-      "owner": "Katie Thompson & Isaac Griffin",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "individual"
-    },
-    {
-      "title": "Daycare Launch Plan Prepared",
-      "owner": "Geoffrey Caliger, Brad Borowski",
-      "quarter": "Q3 2026",
-      "status": "on-track",
-      "type": "company"
-    },
-    {
-      "title": "Vision Awareness Revisited",
-      "owner": "Ryan Griffin",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "individual"
-    },
-    {
-      "title": "Full Worship Team every Sunday",
-      "owner": "Gordon Fava",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "individual"
-    },
-    {
-      "title": "Improve on StaffOS system for LSSR",
-      "owner": "",
-      "quarter": "Q3 2026",
-      "status": "tbd",
-      "type": "individual"
+      "title": "Stanchions Issue finally solved",
+      "owner": "Brad",
+      "quarter": "low",
+      "status": "open",
+      "type": ""
     }
   ],
-  "issues": [
-    {
-      "issue": "Students Leader Schedule System Fixed",
-      "addedBy": "Katie & Isaac",
-      "priority": "high",
-      "status": "open"
-    },
-    {
-      "issue": "Define Boulders",
-      "addedBy": "Brad",
-      "priority": "high",
-      "status": "open"
-    },
-    {
-      "issue": "Class Organization Recreated",
-      "addedBy": "Geoffrey",
-      "priority": "high",
-      "status": "open"
-    },
-    {
-      "issue": "Creative asset lead times compressed — info from pastoral team often arrives too late",
-      "addedBy": "John Conelea",
-      "priority": "med",
-      "status": "open"
-    },
-    {
-      "issue": "CG attendance rate at 50% vs 75%+ goal - engagement strategy needed",
-      "addedBy": "Adam Carp",
-      "priority": "med",
-      "status": "open"
-    },
-    {
-      "issue": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into Weekly/Quarterly Meetings",
-      "addedBy": "Brad",
-      "priority": "low",
-      "status": "open"
-    },
-    {
-      "issue": "Stanchions Issue finally solved",
-      "addedBy": "Brad",
-      "priority": "low",
-      "status": "open"
-    }
-  ]
+  "issues": []
 }
