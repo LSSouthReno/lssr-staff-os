@@ -36,11 +36,11 @@
     },
     {
       "id": "sp-ids",
-      "label": "Rocks",
+      "label": "boulders",
       "visible": true
     },
     {
-      "id": "sp-rocks",
+      "id": "sp-boulders",
       "label": "Boulders",
       "visible": true
     },
@@ -279,7 +279,7 @@
         "Owns the Level 10 meeting pulse and EOS implementation",
         "Manages and develops all department directors",
         "Budget ownership, financial health, building search",
-        "Holds team accountable to rocks, scorecard, and values",
+        "Holds team accountable to boulders, scorecard, and values",
         "HR, onboarding, staff development, and culture health",
         "Removes obstacles; solves what the visionary cannot"
       ]
@@ -497,7 +497,7 @@
           },
           {
             "time": "Day 2",
-            "item": "Set Q1 rocks for all seats; budget and calendar alignment"
+            "item": "Set Q1 boulders for all seats; budget and calendar alignment"
           },
           {
             "time": "Day 2",
@@ -534,7 +534,7 @@
     ]
   },
   "ids": {
-    "title": "Rocks List and IDS Process",
+    "title": "boulders List and IDS Process",
     "description": "IDS - Identify, Discuss, Solve - is how you actually fix problems instead of talking around them forever. The Issues List is the shared, visible list of everything getting in the way.",
     "rule_title": "The IDS Rule",
     "rule_text": "Whoever identifies an issue owns putting it on the list - not solving it alone. The team solves it together in the L10. Issues are prioritized by impact, not urgency. An issue that recurs 3x becomes a Rock to fix systemically.",
@@ -557,7 +557,7 @@
       "Issues belong to the team, not the person who raised them. No retaliation culture.",
       "Never escalate to Ryan what Brad can solve. Never escalate to Brad what a director can solve.",
       "IDS is not a venting session. Time-box discussion.",
-      "The Stepping Stones transition (post-Feb 2025) created systemic issues - these are Rocks, not just IDS items.",
+      "The Stepping Stones transition (post-Feb 2025) created systemic issues - these are boulders, not just IDS items.",
       "The Wonder gap means issues may not surface until critical. Build in What are we missing? as a standing L10 prompt."
     ],
     "escalation": [
