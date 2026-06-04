@@ -415,11 +415,11 @@
           },
           {
             "time": "60 min",
-            "item": "Calendar"
+            "item": "IDS - Identify, Discuss, Solve the top 3 issues (prioritized)"
           },
           {
             "time": "5 min",
-            "item": "IDS - Identify, Discuss, Solve the top 3 issues (prioritized)"
+            "item": "Conclude - rate the meeting 1-10; recap to-dos"
           }
         ]
       },
