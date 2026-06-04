@@ -898,46 +898,46 @@
   ],
   "rocks": [
     {
-      "rock": "Students Leader Schedule System Fixed",
       "addedBy": "Katie & Isaac",
       "priority": "high",
-      "status": "open"
+      "status": "open",
+      "rock": "Students Leader Schedule System Fixed"
     },
     {
-      "rock": "Define Boulders",
       "addedBy": "Brad",
       "priority": "high",
-      "status": "open"
+      "status": "open",
+      "rock": "Define Boulders"
     },
     {
-      "rock": "Class Organization Recreated",
       "addedBy": "Geoffrey",
       "priority": "high",
-      "status": "open"
+      "status": "open",
+      "rock": "Class Organization Recreated"
     },
     {
-      "rock": "Creative asset lead times compressed — info from pastoral team often arrives too late",
       "addedBy": "John Conelea",
       "priority": "med",
-      "status": "open"
+      "status": "open",
+      "rock": "Creative asset lead times compressed — info from pastoral team often arrives too late"
     },
     {
-      "rock": "CG attendance rate at 50% vs 75%+ goal - engagement strategy needed",
       "addedBy": "Adam Carp",
       "priority": "med",
-      "status": "open"
+      "status": "open",
+      "rock": "CG attendance rate at 50% vs 75%+ goal - engagement strategy needed"
     },
     {
-      "rock": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into Weekly/Quarterly Meetings",
       "addedBy": "Brad",
       "priority": "low",
-      "status": "open"
+      "status": "open",
+      "rock": "Team Wonder/Galvanizing gap — build structured What-are-we-missing time into Weekly/Quarterly Meetings"
     },
     {
-      "rock": "Stanchions Issue finally solved",
       "addedBy": "Brad",
       "priority": "low",
-      "status": "open"
+      "status": "open",
+      "rock": "Stanchions Issue finally solved"
     }
   ]
 }
